@@ -11,7 +11,7 @@ e = Experiment(
         'resample': 250,
         'votingMethod': 1,
         'approach': 2,
-        'limit': 30
+        'limit': 60
     },
     parameters = {
         'radius': [.1,.2,.3,.4,.5],
