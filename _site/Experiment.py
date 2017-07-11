@@ -141,13 +141,8 @@ class Experiment(object):
                 finisher
             )
 
-        print xx
-        print yy
-        print self.entries
-        print finisher
 
         resArray = np.array(self.entries).reshape((len(xx),len(yy)))
-        print resArray
 
         csvArray = np.zeros((len(xx) + 1, len(yy) + 1))
         csvArray[1:,1:] = resArray
@@ -156,25 +151,6 @@ class Experiment(object):
 
         filename = self.filename('%s.csv' % self.currentDataset, 'csv')
         np.savetxt(filename, csvArray, delimiter=",")
-
-        print csvArray
-        print csvArray[:2,:2].tolist()
-
-        writer = pytablewriter.MarkdownTableWriter()
-        #writer.table_name = "example_table"
-        writer.header_list = csvArray[0,:].tolist()
-        writer.value_matrix = csvArray[1:,:].tolist()
-        writer.header_list[0] = " "
-
-        a = writer.write_table()
-        '''
-        filename = self.filename('%s.md' % self.currentDataset, 'markdown')
-        self.saveStringToFile(
-            writer.write_table(),
-            filename
-        )
-        self.glorify('Markdown saved in %s' % filename, 1)
-        '''
 
 
     def table(self, xx, xl, xf, yy, yl, yf, vf, refrow = None, valignment = 'r', reflead = '---', bestRow = None):

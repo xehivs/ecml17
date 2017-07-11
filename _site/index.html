@@ -9,30 +9,453 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/cayman.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 </head>
+
 
   <body>
     <section class="page-header">
   <h1 class="project-name">Dealing with the task of imbalanced, multidimensional data classification using ensembles of exposers</h1>
   <h2 class="project-tagline">P. Ksieniewicz and M. Woźniak</h2>
-  <a href="#" class="btn">View on GitHub</a>
-  <a href="#" class="btn">Download .zip</a>
-  <a href="#" class="btn">Download .tar.gz</a>
+  <a href="http://github.com/xehivs/ecml17" class="btn">View on GitHub</a>
 </section>
+
 
     <section class="main-content">
       
-      <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    
-      <li><span>12 Feb 2016</span> &raquo; <a href="/main/2016/02/12/sample-content.html">Welcome to Jekyll!</a></li>
-    
-  </ul>
-</div>
+      <h1 id="abstract">Abstract</h1>
+<blockquote>
+  <p>Recently, the problem of imbalanced data is the focus of intense research of machine learning community. Following work tries to utilize an approach of transforming the data space into another where classification task may become easier. Paper contains a proposition of a tool, based on a photographic metaphor to build a classifier ensemble, combined with a random subspace approach. It is a naturally naive parallel, insensitive to a sample size, robust to dimension increase, which allows a regularization of feature space, to reduce the impact of biased classes. The proposed approach was evaluated on the basis of the computer experiments carried out on the benchmark datasets.</p>
+</blockquote>
+
+<h1 id="benchmark-data">Benchmark data</h1>
+<canvas id="benchmark" height="40em" width="100%"></canvas>
+<script>
+var ctx_benchmark = document.getElementById("benchmark").getContext('2d');
+var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["balance", "ionosphere", "wisconsin", "yeast3"], "datasets": [{"data": ["0.736", "0.878", "0.970", "0.889"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.771", "0.729", "0.948", "0.802"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.766", "0.862", "0.959", "0.558"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.718", "0.836", "0.898", "0.838"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.640", "0.638", "0.500", "0.840"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.781", "0.608", "0.950", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
+</script>
+
+<h1 id="synthetic-data">Synthetic data</h1>
+<canvas id="synthetic" height="40em" width="100%"></canvas>
+<script>
+var ctx_benchmark = document.getElementById("synthetic").getContext('2d');
+var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["syntetic5f", "syntetic10f", "syntetic20f", "syntetic50f"], "datasets": [{"data": ["0.955", "0.860", "0.880", "0.887"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.919", "0.717", "0.556", "0.546"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.945", "0.839", "0.776", "0.789"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.920", "0.783", "0.675", "0.813"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.928", "0.786", "0.690", "0.500"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.722", "0.500", "0.500", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
+</script>
+
+<h1 id="result-tables">Result tables</h1>
+<h1 id="syntetic5f"><code class="highlighter-rouge">syntetic5f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.926</td>
+      <td style="text-align: right">0.955</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.935</td>
+      <td style="text-align: right">0.951</td>
+      <td style="text-align: right">0.954</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.888</td>
+      <td style="text-align: right">0.938</td>
+      <td style="text-align: right">0.951</td>
+      <td style="text-align: right">0.950</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.888</td>
+      <td style="text-align: right">0.937</td>
+      <td style="text-align: right">0.950</td>
+      <td style="text-align: right">0.949</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.920</td>
+      <td style="text-align: right">0.936</td>
+      <td style="text-align: right">0.944</td>
+      <td style="text-align: right">0.946</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="syntetic10f"><code class="highlighter-rouge">syntetic10f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.692</td>
+      <td style="text-align: right">0.776</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.789</td>
+      <td style="text-align: right">0.831</td>
+      <td style="text-align: right">0.834</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.779</td>
+      <td style="text-align: right">0.842</td>
+      <td style="text-align: right">0.844</td>
+      <td style="text-align: right">0.828</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.843</td>
+      <td style="text-align: right">0.842</td>
+      <td style="text-align: right">0.843</td>
+      <td style="text-align: right">0.846</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.853</td>
+      <td style="text-align: right">0.857</td>
+      <td style="text-align: right">0.860</td>
+      <td style="text-align: right">0.856</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="syntetic20f"><code class="highlighter-rouge">syntetic20f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.548</td>
+      <td style="text-align: right">0.527</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.583</td>
+      <td style="text-align: right">0.696</td>
+      <td style="text-align: right">0.613</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.642</td>
+      <td style="text-align: right">0.650</td>
+      <td style="text-align: right">0.760</td>
+      <td style="text-align: right">0.818</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.744</td>
+      <td style="text-align: right">0.839</td>
+      <td style="text-align: right">0.839</td>
+      <td style="text-align: right">0.880</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.764</td>
+      <td style="text-align: right">0.816</td>
+      <td style="text-align: right">0.838</td>
+      <td style="text-align: right">0.840</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="syntetic50f"><code class="highlighter-rouge">syntetic50f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.512</td>
+      <td style="text-align: right">0.503</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.530</td>
+      <td style="text-align: right">0.615</td>
+      <td style="text-align: right">0.687</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.583</td>
+      <td style="text-align: right">0.508</td>
+      <td style="text-align: right">0.771</td>
+      <td style="text-align: right">0.699</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.661</td>
+      <td style="text-align: right">0.802</td>
+      <td style="text-align: right">0.833</td>
+      <td style="text-align: right">0.732</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.677</td>
+      <td style="text-align: right">0.798</td>
+      <td style="text-align: right">0.764</td>
+      <td style="text-align: right">0.887</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="balance"><code class="highlighter-rouge">balance</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.653</td>
+      <td style="text-align: right">0.699</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.653</td>
+      <td style="text-align: right">0.699</td>
+      <td style="text-align: right">0.701</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.690</td>
+      <td style="text-align: right">0.705</td>
+      <td style="text-align: right">0.704</td>
+      <td style="text-align: right">0.720</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.690</td>
+      <td style="text-align: right">0.730</td>
+      <td style="text-align: right">0.735</td>
+      <td style="text-align: right">0.736</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.724</td>
+      <td style="text-align: right">0.732</td>
+      <td style="text-align: right">0.730</td>
+      <td style="text-align: right">0.728</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="ionosphere"><code class="highlighter-rouge">ionosphere</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.863</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.763</td>
+      <td style="text-align: right">0.842</td>
+      <td style="text-align: right">0.859</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.794</td>
+      <td style="text-align: right">0.863</td>
+      <td style="text-align: right">0.878</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.824</td>
+      <td style="text-align: right">0.797</td>
+      <td style="text-align: right">0.840</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.71</td>
+      <td style="text-align: right">0.740</td>
+      <td style="text-align: right">0.757</td>
+      <td style="text-align: right">0.752</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="wisconsin"><code class="highlighter-rouge">wisconsin</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.927</td>
+      <td style="text-align: right">0.957</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.955</td>
+      <td style="text-align: right">0.965</td>
+      <td style="text-align: right">0.964</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.959</td>
+      <td style="text-align: right">0.968</td>
+      <td style="text-align: right">0.969</td>
+      <td style="text-align: right">0.969</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.958</td>
+      <td style="text-align: right">0.967</td>
+      <td style="text-align: right">0.968</td>
+      <td style="text-align: right">0.970</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.967</td>
+      <td style="text-align: right">0.966</td>
+      <td style="text-align: right">0.970</td>
+      <td style="text-align: right">0.970</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="yeast3"><code class="highlighter-rouge">yeast3</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.708</td>
+      <td style="text-align: right">0.817</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.771</td>
+      <td style="text-align: right">0.869</td>
+      <td style="text-align: right">0.881</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.832</td>
+      <td style="text-align: right">0.840</td>
+      <td style="text-align: right">0.873</td>
+      <td style="text-align: right">0.880</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.830</td>
+      <td style="text-align: right">0.848</td>
+      <td style="text-align: right">0.874</td>
+      <td style="text-align: right">0.883</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.852</td>
+      <td style="text-align: right">0.855</td>
+      <td style="text-align: right">0.884</td>
+      <td style="text-align: right">0.889</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
       <footer class="site-footer">
-  <span class="site-footer-owner"><a href="http://localhost:4000">Dealing with the task of imbalanced, multidimensional data classification using ensembles of exposers</a> is maintained by <a href="http://yourhomepage.com">Author name</a>.</span>
+  <span class="site-footer-owner"><a href="http://localhost:4000">Dealing with the task of imbalanced, multidimensional data classification using ensembles of exposers</a> is maintained by <a href="http://ksienie.com">Paweł Ksieniewicz</a>.</span>
   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
 </footer>
 

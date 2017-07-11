@@ -1,17 +1,14 @@
 # Setup
 title: "Dealing with the task of imbalanced, multidimensional data classification using ensembles of exposers"
 tagline: "P. Ksieniewicz and M. Woźniak"
-baseurl:      ""
-paginate:     1
+baseurl: ""
+abstract: "Recently, the problem of imbalanced data is the focus of intense research of machine learning community. Following work tries to utilize an approach of transforming the data space into another where classification task may become easier. Paper contains a proposition of a tool, based on a photographic metaphor to build a classifier ensemble, combined with a random subspace approach. It is a naturally naive parallel, insensitive to a sample size, robust to dimension increase, which allows a regularization of feature space, to reduce the impact of biased classes. The proposed approach was evaluated on the basis of the computer experiments carried out on the benchmark datasets."
+github: 'http://github.com/xehivs/ecml17'
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com
-
-# Gems
-plugins:
-  - jekyll-paginate
+  name:       Paweł Ksieniewicz
+  url:        http://ksienie.com
 
 #Others
 markdown: kramdown
