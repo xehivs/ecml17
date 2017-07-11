@@ -1,0 +1,9 @@
+dataset,samples,features,classes,ratio,tags
+balance,625,4,3,6:1,multi-class imbalanced
+ionosphere,351,34,2,2:1,binary multi-feature
+syntetic10f,1000,10,2,8:1,binary multi-feature imbalanced
+syntetic20f,1000,20,2,9:1,binary multi-feature imbalanced
+syntetic50f,1000,50,2,9:1,binary multi-feature imbalanced
+syntetic5f,1000,5,2,9:1,binary imbalanced
+wisconsin,699,9,2,2:1,binary multi-feature
+yeast3,1484,8,2,8:1,binary multi-feature imbalanced
