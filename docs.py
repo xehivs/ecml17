@@ -12,7 +12,7 @@ tables = ['csv/experiment_1_syntetic5f.csv', 'csv/experiment_1_syntetic10f.csv']
 
 for dataset in datasets:
     csvArray = np.genfromtxt('csv/experiment_1_%s.csv' % dataset, delimiter=',')
-    print '# `%s`!\n' % dataset
+    print '# `%s`\n' % dataset
 
     writer = pytablewriter.MarkdownTableWriter()
     writer.header_list = csvArray[0,:].tolist()
