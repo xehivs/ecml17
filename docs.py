@@ -82,7 +82,7 @@ barplot(chartjsdata(
 print '# Synthetic data'
 barplot(chartjsdata(
     classifiers = classifiers,
-    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f']
+    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f']
 ), label='synthetic')
 
 
