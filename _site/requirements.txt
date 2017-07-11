@@ -2,3 +2,5 @@ bson
 weles
 hssa
 ece
+pymongo
+pytablewriter
