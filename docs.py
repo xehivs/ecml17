@@ -9,6 +9,6 @@ writer = pytablewriter.MarkdownTableWriter()
 #writer.table_name = "example_table"
 writer.header_list = csvArray[0,:].tolist()
 writer.value_matrix = csvArray[1:,:].tolist()
-writer.header_list[0] = " "
+writer.header_list[0] = "-"
 
 writer.write_table()
