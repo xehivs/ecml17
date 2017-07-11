@@ -1,4 +1,4 @@
-all: init
+all:
 	./experiment.sh experiment_1.py
 
 init:

@@ -13,6 +13,7 @@ import os
 from operator import itemgetter
 from matplotlib.colors import LinearSegmentedColormap
 import pandas as pd
+import pytablewriter
 
 PBORDER = 0.15
 
@@ -109,6 +110,73 @@ class Experiment(object):
             divider = len(self.instances) / len(self.parameters[self.sortInstancesBy])
             self.complements = self.complements[0::divider]
             self.glorify('Complements are %s' % self.complements, 1)
+
+    def csv(self, bestRow = None, xx = [], yy = []):
+        self.warn('Making a csv file')
+        finisher = ''
+        if bestRow:
+            bestValue = max(bestRow.values())
+            worstValue = min(bestRow.values())
+
+            difference = (float(max(self.entries)) - bestValue)
+
+            for key in bestRow:
+                if bestRow[key] == bestValue:
+                    finisher += 'best %.3f (%s), worst %.3f' % (
+                        bestRow[key],
+                        key.upper(),
+                        worstValue
+                    )
+
+            for key in bestRow:
+                if bestRow[key] == worstValue:
+                    finisher += ' (%s)' % (
+                        key.upper(),
+                    )
+
+
+            finisher = '%s%.1f, %s' % (
+                '+' if difference > 0 else '-',
+                np.abs(100 * difference),
+                finisher
+            )
+
+        print xx
+        print yy
+        print self.entries
+        print finisher
+
+        resArray = np.array(self.entries).reshape((len(xx),len(yy)))
+        print resArray
+
+        csvArray = np.zeros((len(xx) + 1, len(yy) + 1))
+        csvArray[1:,1:] = resArray
+        csvArray[0,1:] = yy
+        csvArray[1:,0] = xx
+
+        filename = self.filename('%s.csv' % self.currentDataset, 'csv')
+        np.savetxt(filename, csvArray, delimiter=",")
+
+        print csvArray
+        print csvArray[:2,:2].tolist()
+
+        writer = pytablewriter.MarkdownTableWriter()
+        #writer.table_name = "example_table"
+        writer.header_list = csvArray[0,:].tolist()
+        writer.value_matrix = csvArray[1:,:].tolist()
+        writer.header_list[0] = " "
+
+        a = writer.write_table()
+        print a
+        '''
+        filename = self.filename('%s.md' % self.currentDataset, 'markdown')
+        self.saveStringToFile(
+            writer.write_table(),
+            filename
+        )
+        self.glorify('Markdown saved in %s' % filename, 1)
+        '''
+
 
     def table(self, xx, xl, xf, yy, yl, yf, vf, refrow = None, valignment = 'r', reflead = '---', bestRow = None):
         self.warn('Making a table (%s to %s)' % (xl, yl))

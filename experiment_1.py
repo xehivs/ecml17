@@ -4,9 +4,9 @@ import ece
 
 ''' Experiment configuration '''
 e = Experiment(
-    subject = 'PLACEHOLDER',
+    subject = 'A subject of experiment.',
     revision = 'b',
-    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
+    datasets = ['syntetic5f', 'syntetic10f'],#, 'syntetic20f', 'syntetic50f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
     fixed = {
         'resample': 250,
         'votingMethod': 1,
@@ -15,7 +15,7 @@ e = Experiment(
     },
     parameters = {
         'radius': [.1,.2,.3,.4,.5],
-        'grain': [4,8,16,32],
+        'grain': [4,8],#,16,32],
     },
     sortInstancesBy = 'radius'
 )
@@ -155,3 +155,5 @@ for dataset in e.datasets:
     # And save a table
     e.table(xx = xx, xl = xl, xf = xf, yy = yy, yl = yl, yf = yf, vf = vf,
         refrow = refrow, bestRow = bestRow)
+
+    e.csv(bestRow = bestRow, xx = e.parameters['radius'], yy = e.parameters['grain'])
