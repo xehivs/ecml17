@@ -167,7 +167,6 @@ class Experiment(object):
         writer.header_list[0] = " "
 
         a = writer.write_table()
-        print a
         '''
         filename = self.filename('%s.md' % self.currentDataset, 'markdown')
         self.saveStringToFile(
