@@ -6,7 +6,7 @@ import ece
 e = Experiment(
     subject = 'A subject of experiment.',
     revision = 'b',
-    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
+    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
     fixed = {
         'resample': 250,
         'votingMethod': 1,
