@@ -6,7 +6,7 @@ import ece
 e = Experiment(
     subject = 'A subject of experiment.',
     revision = 'b',
-    datasets = ['syntetic5f', 'syntetic10f'],#, 'syntetic20f', 'syntetic50f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
+    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
     fixed = {
         'resample': 250,
         'votingMethod': 1,
@@ -15,7 +15,7 @@ e = Experiment(
     },
     parameters = {
         'radius': [.1,.2,.3,.4,.5],
-        'grain': [4,8],#,16,32],
+        'grain': [4,8,16,32],
     },
     sortInstancesBy = 'radius'
 )
