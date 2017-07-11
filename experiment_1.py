@@ -9,7 +9,7 @@ e = Experiment(
     datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'syntetic500f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
     fixed = {
         'resample': 250,
-        'votingMethod': 1,
+        'votingMethod': 5,
         'approach': 2,
         'limit': 60
     },
