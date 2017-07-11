@@ -13,7 +13,7 @@
 # Test will consist of 20 instances
 ##################################################
 [0m
-[93m- Dataset syntetic5f (0/10)[0m
+[93m- Dataset syntetic5f (0/11)[0m
 [92m- Dataset loaded (syntetic5f dataset (1000 samples, 5 features, 2 classes))[0m
 [93m- Instance 0 at dataset 0 (0.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
@@ -26,7 +26,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 0 (0.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 0 (0.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -37,7 +37,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 0 (1.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 0 (0.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -48,7 +48,7 @@
   - bac = [92m0.925883759956[0m
   - accuracy = [92m0.962[0m
 [92m  - Added entry 0.926[0m
-[93m- Instance 3 at dataset 0 (1.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 0 (1.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -59,7 +59,7 @@
   - bac = [92m0.954723136477[0m
   - accuracy = [92m0.972[0m
 [92m  - Added entry 0.955[0m
-[93m- Instance 4 at dataset 0 (2.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 0 (1.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -70,7 +70,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 0 (2.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 0 (2.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -81,7 +81,7 @@
   - bac = [92m0.93458881582[0m
   - accuracy = [92m0.95275[0m
 [92m  - Added entry 0.935[0m
-[93m- Instance 6 at dataset 0 (3.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 0 (2.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -92,7 +92,7 @@
   - bac = [92m0.950701636231[0m
   - accuracy = [92m0.961[0m
 [92m  - Added entry 0.951[0m
-[93m- Instance 7 at dataset 0 (3.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 0 (3.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -103,7 +103,7 @@
   - bac = [92m0.954232548767[0m
   - accuracy = [92m0.9655[0m
 [92m  - Added entry 0.954[0m
-[93m- Instance 8 at dataset 0 (4.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 0 (3.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -114,7 +114,7 @@
   - bac = [92m0.887971810769[0m
   - accuracy = [92m0.83[0m
 [92m  - Added entry 0.888[0m
-[93m- Instance 9 at dataset 0 (4.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 0 (4.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -125,7 +125,7 @@
   - bac = [92m0.938099554696[0m
   - accuracy = [92m0.9555[0m
 [92m  - Added entry 0.938[0m
-[93m- Instance 10 at dataset 0 (5.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 0 (4.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -136,7 +136,7 @@
   - bac = [92m0.951225041275[0m
   - accuracy = [92m0.95825[0m
 [92m  - Added entry 0.951[0m
-[93m- Instance 11 at dataset 0 (5.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 0 (5.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -147,7 +147,7 @@
   - bac = [92m0.949865643003[0m
   - accuracy = [92m0.95775[0m
 [92m  - Added entry 0.950[0m
-[93m- Instance 12 at dataset 0 (6.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 0 (5.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -158,7 +158,7 @@
   - bac = [92m0.887971810769[0m
   - accuracy = [92m0.83[0m
 [92m  - Added entry 0.888[0m
-[93m- Instance 13 at dataset 0 (6.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 0 (5.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -169,7 +169,7 @@
   - bac = [92m0.936838489959[0m
   - accuracy = [92m0.95325[0m
 [92m  - Added entry 0.937[0m
-[93m- Instance 14 at dataset 0 (7.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 0 (6.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -180,7 +180,7 @@
   - bac = [92m0.949836016211[0m
   - accuracy = [92m0.954[0m
 [92m  - Added entry 0.950[0m
-[93m- Instance 15 at dataset 0 (7.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 0 (6.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -191,7 +191,7 @@
   - bac = [92m0.949094244261[0m
   - accuracy = [92m0.95275[0m
 [92m  - Added entry 0.949[0m
-[93m- Instance 16 at dataset 0 (8.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 0 (7.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -202,7 +202,7 @@
   - bac = [92m0.919757611591[0m
   - accuracy = [92m0.887[0m
 [92m  - Added entry 0.920[0m
-[93m- Instance 17 at dataset 0 (8.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 0 (7.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -213,7 +213,7 @@
   - bac = [92m0.936456858627[0m
   - accuracy = [92m0.947[0m
 [92m  - Added entry 0.936[0m
-[93m- Instance 18 at dataset 0 (9.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 0 (8.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -224,7 +224,7 @@
   - bac = [92m0.944478279468[0m
   - accuracy = [92m0.9445[0m
 [92m  - Added entry 0.944[0m
-[93m- Instance 19 at dataset 0 (9.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 0 (8.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -241,9 +241,9 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic5f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset syntetic10f (1/10)[0m
+[93m- Dataset syntetic10f (1/11)[0m
 [92m- Dataset loaded (syntetic10f dataset (1000 samples, 10 features, 2 classes))[0m
-[93m- Instance 0 at dataset 1 (10.00%) [EXP experiment_1][0m
+[93m- Instance 0 at dataset 1 (9.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -254,7 +254,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 1 (10.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 1 (9.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -265,7 +265,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 1 (11.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 1 (10.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -276,7 +276,7 @@
   - bac = [92m0.691864502248[0m
   - accuracy = [92m0.9035[0m
 [92m  - Added entry 0.692[0m
-[93m- Instance 3 at dataset 1 (11.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 1 (10.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -287,7 +287,7 @@
   - bac = [92m0.775763103864[0m
   - accuracy = [92m0.9155[0m
 [92m  - Added entry 0.776[0m
-[93m- Instance 4 at dataset 1 (12.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 1 (10.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -298,7 +298,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 1 (12.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 1 (11.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -309,7 +309,7 @@
   - bac = [92m0.789232381847[0m
   - accuracy = [92m0.8955[0m
 [92m  - Added entry 0.789[0m
-[93m- Instance 6 at dataset 1 (13.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 1 (11.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -320,7 +320,7 @@
   - bac = [92m0.830510059315[0m
   - accuracy = [92m0.89475[0m
 [92m  - Added entry 0.831[0m
-[93m- Instance 7 at dataset 1 (13.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 1 (12.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -331,7 +331,7 @@
   - bac = [92m0.833524146257[0m
   - accuracy = [92m0.88375[0m
 [92m  - Added entry 0.834[0m
-[93m- Instance 8 at dataset 1 (14.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 1 (12.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -342,7 +342,7 @@
   - bac = [92m0.778958159418[0m
   - accuracy = [92m0.85525[0m
 [92m  - Added entry 0.779[0m
-[93m- Instance 9 at dataset 1 (14.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 1 (13.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -353,7 +353,7 @@
   - bac = [92m0.841502394204[0m
   - accuracy = [92m0.8815[0m
 [92m  - Added entry 0.842[0m
-[93m- Instance 10 at dataset 1 (15.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 1 (13.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -364,7 +364,7 @@
   - bac = [92m0.84408476739[0m
   - accuracy = [92m0.88425[0m
 [92m  - Added entry 0.844[0m
-[93m- Instance 11 at dataset 1 (15.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 1 (14.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -375,7 +375,7 @@
   - bac = [92m0.82826193143[0m
   - accuracy = [92m0.871[0m
 [92m  - Added entry 0.828[0m
-[93m- Instance 12 at dataset 1 (16.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 1 (14.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -386,7 +386,7 @@
   - bac = [92m0.842909486761[0m
   - accuracy = [92m0.862[0m
 [92m  - Added entry 0.843[0m
-[93m- Instance 13 at dataset 1 (16.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 1 (15.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -397,7 +397,7 @@
   - bac = [92m0.842049795919[0m
   - accuracy = [92m0.86975[0m
 [92m  - Added entry 0.842[0m
-[93m- Instance 14 at dataset 1 (17.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 1 (15.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -408,7 +408,7 @@
   - bac = [92m0.84342430585[0m
   - accuracy = [92m0.874[0m
 [92m  - Added entry 0.843[0m
-[93m- Instance 15 at dataset 1 (17.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 1 (15.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -419,7 +419,7 @@
   - bac = [92m0.846480791063[0m
   - accuracy = [92m0.87225[0m
 [92m  - Added entry 0.846[0m
-[93m- Instance 16 at dataset 1 (18.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 1 (16.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -430,7 +430,7 @@
   - bac = [92m0.852918237878[0m
   - accuracy = [92m0.851[0m
 [92m  - Added entry 0.853[0m
-[93m- Instance 17 at dataset 1 (18.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 1 (16.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -441,7 +441,7 @@
   - bac = [92m0.857390620596[0m
   - accuracy = [92m0.86975[0m
 [92m  - Added entry 0.857[0m
-[93m- Instance 18 at dataset 1 (19.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 1 (17.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -452,7 +452,7 @@
   - bac = [92m0.859973618888[0m
   - accuracy = [92m0.869[0m
 [92m  - Added entry 0.860[0m
-[93m- Instance 19 at dataset 1 (19.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 1 (17.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -469,9 +469,9 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic10f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset syntetic20f (2/10)[0m
+[93m- Dataset syntetic20f (2/11)[0m
 [92m- Dataset loaded (syntetic20f dataset (1000 samples, 20 features, 2 classes))[0m
-[93m- Instance 0 at dataset 2 (20.00%) [EXP experiment_1][0m
+[93m- Instance 0 at dataset 2 (18.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -482,7 +482,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 2 (20.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 2 (18.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -493,7 +493,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 2 (21.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 2 (19.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -504,7 +504,7 @@
   - bac = [92m0.548227556465[0m
   - accuracy = [92m0.8895[0m
 [92m  - Added entry 0.548[0m
-[93m- Instance 3 at dataset 2 (21.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 2 (19.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -515,7 +515,7 @@
   - bac = [92m0.527385106893[0m
   - accuracy = [92m0.8955[0m
 [92m  - Added entry 0.527[0m
-[93m- Instance 4 at dataset 2 (22.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 2 (20.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -526,7 +526,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 2 (22.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 2 (20.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -537,7 +537,7 @@
   - bac = [92m0.582745981265[0m
   - accuracy = [92m0.88975[0m
 [92m  - Added entry 0.583[0m
-[93m- Instance 6 at dataset 2 (23.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 2 (20.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -548,7 +548,7 @@
   - bac = [92m0.695503382114[0m
   - accuracy = [92m0.89275[0m
 [92m  - Added entry 0.696[0m
-[93m- Instance 7 at dataset 2 (23.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 2 (21.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -559,7 +559,7 @@
   - bac = [92m0.612650905785[0m
   - accuracy = [92m0.87675[0m
 [92m  - Added entry 0.613[0m
-[93m- Instance 8 at dataset 2 (24.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 2 (21.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -570,7 +570,7 @@
   - bac = [92m0.641774990002[0m
   - accuracy = [92m0.85175[0m
 [92m  - Added entry 0.642[0m
-[93m- Instance 9 at dataset 2 (24.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 2 (22.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -581,7 +581,7 @@
   - bac = [92m0.650145683644[0m
   - accuracy = [92m0.8525[0m
 [92m  - Added entry 0.650[0m
-[93m- Instance 10 at dataset 2 (25.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 2 (22.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -592,7 +592,7 @@
   - bac = [92m0.759749442829[0m
   - accuracy = [92m0.878[0m
 [92m  - Added entry 0.760[0m
-[93m- Instance 11 at dataset 2 (25.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 2 (23.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -603,7 +603,7 @@
   - bac = [92m0.818089795772[0m
   - accuracy = [92m0.864[0m
 [92m  - Added entry 0.818[0m
-[93m- Instance 12 at dataset 2 (26.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 2 (23.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -614,7 +614,7 @@
   - bac = [92m0.744179408271[0m
   - accuracy = [92m0.83325[0m
 [92m  - Added entry 0.744[0m
-[93m- Instance 13 at dataset 2 (26.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 2 (24.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -625,7 +625,7 @@
   - bac = [92m0.83900510375[0m
   - accuracy = [92m0.84825[0m
 [92m  - Added entry 0.839[0m
-[93m- Instance 14 at dataset 2 (27.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 2 (24.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -636,7 +636,7 @@
   - bac = [92m0.838658563723[0m
   - accuracy = [92m0.85575[0m
 [92m  - Added entry 0.839[0m
-[93m- Instance 15 at dataset 2 (27.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 2 (25.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -647,7 +647,7 @@
   - bac = [92m0.879644768248[0m
   - accuracy = [92m0.867[0m
 [92m  - Added entry 0.880[0m
-[93m- Instance 16 at dataset 2 (28.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 2 (25.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -658,7 +658,7 @@
   - bac = [92m0.764464636915[0m
   - accuracy = [92m0.83725[0m
 [92m  - Added entry 0.764[0m
-[93m- Instance 17 at dataset 2 (28.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 2 (25.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -669,7 +669,7 @@
   - bac = [92m0.816076911334[0m
   - accuracy = [92m0.838[0m
 [92m  - Added entry 0.816[0m
-[93m- Instance 18 at dataset 2 (29.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 2 (26.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -680,7 +680,7 @@
   - bac = [92m0.838099150785[0m
   - accuracy = [92m0.84375[0m
 [92m  - Added entry 0.838[0m
-[93m- Instance 19 at dataset 2 (29.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 2 (26.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -697,9 +697,9 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic20f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset syntetic50f (3/10)[0m
+[93m- Dataset syntetic50f (3/11)[0m
 [92m- Dataset loaded (syntetic50f dataset (1000 samples, 50 features, 2 classes))[0m
-[93m- Instance 0 at dataset 3 (30.00%) [EXP experiment_1][0m
+[93m- Instance 0 at dataset 3 (27.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -710,7 +710,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 3 (30.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 3 (27.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -721,7 +721,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 3 (31.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 3 (28.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -732,7 +732,7 @@
   - bac = [92m0.511729556096[0m
   - accuracy = [92m0.8945[0m
 [92m  - Added entry 0.512[0m
-[93m- Instance 3 at dataset 3 (31.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 3 (28.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -743,7 +743,7 @@
   - bac = [92m0.503152557378[0m
   - accuracy = [92m0.89475[0m
 [92m  - Added entry 0.503[0m
-[93m- Instance 4 at dataset 3 (32.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 3 (29.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -754,7 +754,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 3 (32.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 3 (29.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -765,7 +765,7 @@
   - bac = [92m0.530447457996[0m
   - accuracy = [92m0.88375[0m
 [92m  - Added entry 0.530[0m
-[93m- Instance 6 at dataset 3 (33.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 3 (30.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -776,7 +776,7 @@
   - bac = [92m0.614555407872[0m
   - accuracy = [92m0.89475[0m
 [92m  - Added entry 0.615[0m
-[93m- Instance 7 at dataset 3 (33.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 3 (30.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -787,7 +787,7 @@
   - bac = [92m0.687012539788[0m
   - accuracy = [92m0.917[0m
 [92m  - Added entry 0.687[0m
-[93m- Instance 8 at dataset 3 (34.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 3 (30.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -798,7 +798,7 @@
   - bac = [92m0.583070642939[0m
   - accuracy = [92m0.88975[0m
 [92m  - Added entry 0.583[0m
-[93m- Instance 9 at dataset 3 (34.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 3 (31.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -809,7 +809,7 @@
   - bac = [92m0.507577236814[0m
   - accuracy = [92m0.796[0m
 [92m  - Added entry 0.508[0m
-[93m- Instance 10 at dataset 3 (35.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 3 (31.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -820,7 +820,7 @@
   - bac = [92m0.771157727301[0m
   - accuracy = [92m0.90525[0m
 [92m  - Added entry 0.771[0m
-[93m- Instance 11 at dataset 3 (35.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 3 (32.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -831,7 +831,7 @@
   - bac = [92m0.698543047798[0m
   - accuracy = [92m0.84175[0m
 [92m  - Added entry 0.699[0m
-[93m- Instance 12 at dataset 3 (36.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 3 (32.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -842,7 +842,7 @@
   - bac = [92m0.660506954379[0m
   - accuracy = [92m0.887[0m
 [92m  - Added entry 0.661[0m
-[93m- Instance 13 at dataset 3 (36.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 3 (33.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -853,7 +853,7 @@
   - bac = [92m0.801929363874[0m
   - accuracy = [92m0.8785[0m
 [92m  - Added entry 0.802[0m
-[93m- Instance 14 at dataset 3 (37.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 3 (33.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -864,7 +864,7 @@
   - bac = [92m0.832856222868[0m
   - accuracy = [92m0.8705[0m
 [92m  - Added entry 0.833[0m
-[93m- Instance 15 at dataset 3 (37.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 3 (34.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -875,7 +875,7 @@
   - bac = [92m0.731919291099[0m
   - accuracy = [92m0.849[0m
 [92m  - Added entry 0.732[0m
-[93m- Instance 16 at dataset 3 (38.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 3 (34.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -886,7 +886,7 @@
   - bac = [92m0.676683170281[0m
   - accuracy = [92m0.86275[0m
 [92m  - Added entry 0.677[0m
-[93m- Instance 17 at dataset 3 (38.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 3 (35.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -897,7 +897,7 @@
   - bac = [92m0.797682463603[0m
   - accuracy = [92m0.851[0m
 [92m  - Added entry 0.798[0m
-[93m- Instance 18 at dataset 3 (39.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 3 (35.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -908,7 +908,7 @@
   - bac = [92m0.764419709436[0m
   - accuracy = [92m0.82375[0m
 [92m  - Added entry 0.764[0m
-[93m- Instance 19 at dataset 3 (39.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 3 (35.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -925,9 +925,9 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic50f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset syntetic100f (4/10)[0m
+[93m- Dataset syntetic100f (4/11)[0m
 [92m- Dataset loaded (syntetic100f dataset (1000 samples, 100 features, 2 classes))[0m
-[93m- Instance 0 at dataset 4 (40.00%) [EXP experiment_1][0m
+[93m- Instance 0 at dataset 4 (36.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -938,7 +938,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 4 (40.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 4 (36.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -949,7 +949,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 4 (41.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 4 (37.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -960,7 +960,7 @@
   - bac = [92m0.506581719554[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.507[0m
-[93m- Instance 3 at dataset 4 (41.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 4 (37.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -971,7 +971,7 @@
   - bac = [92m0.499860335196[0m
   - accuracy = [92m0.89575[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 4 at dataset 4 (42.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 4 (38.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -982,7 +982,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 4 (42.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 4 (38.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -993,7 +993,7 @@
   - bac = [92m0.536689846938[0m
   - accuracy = [92m0.8955[0m
 [92m  - Added entry 0.537[0m
-[93m- Instance 6 at dataset 4 (43.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 4 (39.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1004,7 +1004,7 @@
   - bac = [92m0.62147655567[0m
   - accuracy = [92m0.88675[0m
 [92m  - Added entry 0.621[0m
-[93m- Instance 7 at dataset 4 (43.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 4 (39.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1015,7 +1015,7 @@
   - bac = [92m0.577033780849[0m
   - accuracy = [92m0.8975[0m
 [92m  - Added entry 0.577[0m
-[93m- Instance 8 at dataset 4 (44.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 4 (40.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1026,7 +1026,7 @@
   - bac = [92m0.560325097362[0m
   - accuracy = [92m0.892[0m
 [92m  - Added entry 0.560[0m
-[93m- Instance 9 at dataset 4 (44.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 4 (40.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1037,7 +1037,7 @@
   - bac = [92m0.826618648521[0m
   - accuracy = [92m0.897[0m
 [92m  - Added entry 0.827[0m
-[93m- Instance 10 at dataset 4 (45.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 4 (40.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1048,7 +1048,7 @@
   - bac = [92m0.620042626141[0m
   - accuracy = [92m0.85125[0m
 [92m  - Added entry 0.620[0m
-[93m- Instance 11 at dataset 4 (45.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 4 (41.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1059,7 +1059,7 @@
   - bac = [92m0.867748769499[0m
   - accuracy = [92m0.90275[0m
 [92m  - Added entry 0.868[0m
-[93m- Instance 12 at dataset 4 (46.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 4 (41.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1070,7 +1070,7 @@
   - bac = [92m0.521316623344[0m
   - accuracy = [92m0.887[0m
 [92m  - Added entry 0.521[0m
-[93m- Instance 13 at dataset 4 (46.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 4 (42.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1081,7 +1081,7 @@
   - bac = [92m0.842899312657[0m
   - accuracy = [92m0.86875[0m
 [92m  - Added entry 0.843[0m
-[93m- Instance 14 at dataset 4 (47.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 4 (42.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1092,7 +1092,7 @@
   - bac = [92m0.592911369454[0m
   - accuracy = [92m0.8215[0m
 [92m  - Added entry 0.593[0m
-[93m- Instance 15 at dataset 4 (47.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 4 (43.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1103,7 +1103,7 @@
   - bac = [92m0.512899168753[0m
   - accuracy = [92m0.73475[0m
 [92m  - Added entry 0.513[0m
-[93m- Instance 16 at dataset 4 (48.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 4 (43.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1114,7 +1114,7 @@
   - bac = [92m0.610557510021[0m
   - accuracy = [92m0.906[0m
 [92m  - Added entry 0.611[0m
-[93m- Instance 17 at dataset 4 (48.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 4 (44.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1125,7 +1125,7 @@
   - bac = [92m0.738729808107[0m
   - accuracy = [92m0.83175[0m
 [92m  - Added entry 0.739[0m
-[93m- Instance 18 at dataset 4 (49.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 4 (44.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1136,7 +1136,7 @@
   - bac = [92m0.872597803323[0m
   - accuracy = [92m0.94[0m
 [92m  - Added entry 0.873[0m
-[93m- Instance 19 at dataset 4 (49.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 4 (45.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1153,9 +1153,9 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic100f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset syntetic200f (5/10)[0m
+[93m- Dataset syntetic200f (5/11)[0m
 [92m- Dataset loaded (syntetic200f dataset (1000 samples, 200 features, 2 classes))[0m
-[93m- Instance 0 at dataset 5 (50.00%) [EXP experiment_1][0m
+[93m- Instance 0 at dataset 5 (45.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1166,7 +1166,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 5 (50.50%) [EXP experiment_1][0m
+[93m- Instance 1 at dataset 5 (45.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1177,7 +1177,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 5 (51.00%) [EXP experiment_1][0m
+[93m- Instance 2 at dataset 5 (46.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1188,7 +1188,7 @@
   - bac = [92m0.501140976931[0m
   - accuracy = [92m0.89575[0m
 [92m  - Added entry 0.501[0m
-[93m- Instance 3 at dataset 5 (51.50%) [EXP experiment_1][0m
+[93m- Instance 3 at dataset 5 (46.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1199,7 +1199,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 4 at dataset 5 (52.00%) [EXP experiment_1][0m
+[93m- Instance 4 at dataset 5 (47.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1210,7 +1210,7 @@
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 5 (52.50%) [EXP experiment_1][0m
+[93m- Instance 5 at dataset 5 (47.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1221,7 +1221,7 @@
   - bac = [92m0.500012283895[0m
   - accuracy = [92m0.89[0m
 [92m  - Added entry 0.500[0m
-[93m- Instance 6 at dataset 5 (53.00%) [EXP experiment_1][0m
+[93m- Instance 6 at dataset 5 (48.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1232,7 +1232,7 @@
   - bac = [92m0.510330426521[0m
   - accuracy = [92m0.8935[0m
 [92m  - Added entry 0.510[0m
-[93m- Instance 7 at dataset 5 (53.50%) [EXP experiment_1][0m
+[93m- Instance 7 at dataset 5 (48.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1243,7 +1243,7 @@
   - bac = [92m0.500515474153[0m
   - accuracy = [92m0.887[0m
 [92m  - Added entry 0.501[0m
-[93m- Instance 8 at dataset 5 (54.00%) [EXP experiment_1][0m
+[93m- Instance 8 at dataset 5 (49.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1254,7 +1254,7 @@
   - bac = [92m0.533177480419[0m
   - accuracy = [92m0.89075[0m
 [92m  - Added entry 0.533[0m
-[93m- Instance 9 at dataset 5 (54.50%) [EXP experiment_1][0m
+[93m- Instance 9 at dataset 5 (49.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1265,7 +1265,7 @@
   - bac = [92m0.528861092136[0m
   - accuracy = [92m0.86575[0m
 [92m  - Added entry 0.529[0m
-[93m- Instance 10 at dataset 5 (55.00%) [EXP experiment_1][0m
+[93m- Instance 10 at dataset 5 (50.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1276,7 +1276,7 @@
   - bac = [92m0.503755897357[0m
   - accuracy = [92m0.8355[0m
 [92m  - Added entry 0.504[0m
-[93m- Instance 11 at dataset 5 (55.50%) [EXP experiment_1][0m
+[93m- Instance 11 at dataset 5 (50.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1287,7 +1287,7 @@
   - bac = [92m0.661940319202[0m
   - accuracy = [92m0.90075[0m
 [92m  - Added entry 0.662[0m
-[93m- Instance 12 at dataset 5 (56.00%) [EXP experiment_1][0m
+[93m- Instance 12 at dataset 5 (50.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1298,7 +1298,7 @@
   - bac = [92m0.505792196238[0m
   - accuracy = [92m0.86875[0m
 [92m  - Added entry 0.506[0m
-[93m- Instance 13 at dataset 5 (56.50%) [EXP experiment_1][0m
+[93m- Instance 13 at dataset 5 (51.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1309,7 +1309,7 @@
   - bac = [92m0.661193453782[0m
   - accuracy = [92m0.89775[0m
 [92m  - Added entry 0.661[0m
-[93m- Instance 14 at dataset 5 (57.00%) [EXP experiment_1][0m
+[93m- Instance 14 at dataset 5 (51.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1320,7 +1320,7 @@
   - bac = [92m0.693855314204[0m
   - accuracy = [92m0.8975[0m
 [92m  - Added entry 0.694[0m
-[93m- Instance 15 at dataset 5 (57.50%) [EXP experiment_1][0m
+[93m- Instance 15 at dataset 5 (52.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1331,7 +1331,7 @@
   - bac = [92m0.494331412601[0m
   - accuracy = [92m0.76125[0m
 [92m  - Added entry 0.494[0m
-[93m- Instance 16 at dataset 5 (58.00%) [EXP experiment_1][0m
+[93m- Instance 16 at dataset 5 (52.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1342,7 +1342,7 @@
   - bac = [92m0.532237552094[0m
   - accuracy = [92m0.87725[0m
 [92m  - Added entry 0.532[0m
-[93m- Instance 17 at dataset 5 (58.50%) [EXP experiment_1][0m
+[93m- Instance 17 at dataset 5 (53.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1353,7 +1353,7 @@
   - bac = [92m0.635358875421[0m
   - accuracy = [92m0.8225[0m
 [92m  - Added entry 0.635[0m
-[93m- Instance 18 at dataset 5 (59.00%) [EXP experiment_1][0m
+[93m- Instance 18 at dataset 5 (53.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1364,7 +1364,7 @@
   - bac = [92m0.60217558298[0m
   - accuracy = [92m0.82[0m
 [92m  - Added entry 0.602[0m
-[93m- Instance 19 at dataset 5 (59.50%) [EXP experiment_1][0m
+[93m- Instance 19 at dataset 5 (54.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
@@ -1381,915 +1381,14 @@
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic200f.tex[0m
 [93m- Making a csv file[0m
-[93m- Dataset balance (6/10)[0m
-[92m- Dataset loaded (balance dataset (625 samples, 4 features, 3 classes))[0m
-[93m- Instance 0 at dataset 6 (60.00%) [EXP experiment_1][0m
+[93m- Dataset syntetic500f (6/11)[0m
+[92m- Dataset loaded (syntetic500f dataset (1000 samples, 500 features, 2 classes))[0m
+[93m- Instance 0 at dataset 6 (54.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
   - votingMethod = [94m1[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
   - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.3856[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 6 (60.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.3856[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 6 (61.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.653296880189[0m
-  - accuracy = [92m0.744[0m
-[92m  - Added entry 0.653[0m
-[93m- Instance 3 at dataset 6 (61.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.698597666088[0m
-  - accuracy = [92m0.813866666667[0m
-[92m  - Added entry 0.699[0m
-[93m- Instance 4 at dataset 6 (62.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.3856[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 6 (62.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.65329733575[0m
-  - accuracy = [92m0.744[0m
-[92m  - Added entry 0.653[0m
-[93m- Instance 6 at dataset 6 (63.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.698597666088[0m
-  - accuracy = [92m0.813866666667[0m
-[92m  - Added entry 0.699[0m
-[93m- Instance 7 at dataset 6 (63.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.700859184104[0m
-  - accuracy = [92m0.8144[0m
-[92m  - Added entry 0.701[0m
-[93m- Instance 8 at dataset 6 (64.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.689775352292[0m
-  - accuracy = [92m0.799733333333[0m
-[92m  - Added entry 0.690[0m
-[93m- Instance 9 at dataset 6 (64.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.705247771763[0m
-  - accuracy = [92m0.819733333333[0m
-[92m  - Added entry 0.705[0m
-[93m- Instance 10 at dataset 6 (65.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.704363367481[0m
-  - accuracy = [92m0.818933333333[0m
-[92m  - Added entry 0.704[0m
-[93m- Instance 11 at dataset 6 (65.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.719872391125[0m
-  - accuracy = [92m0.834133333333[0m
-[92m  - Added entry 0.720[0m
-[93m- Instance 12 at dataset 6 (66.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.689775807852[0m
-  - accuracy = [92m0.799733333333[0m
-[92m  - Added entry 0.690[0m
-[93m- Instance 13 at dataset 6 (66.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.730350084054[0m
-  - accuracy = [92m0.837333333333[0m
-[92m  - Added entry 0.730[0m
-[93m- Instance 14 at dataset 6 (67.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.734925344821[0m
-  - accuracy = [92m0.841333333333[0m
-[92m  - Added entry 0.735[0m
-[93m- Instance 15 at dataset 6 (67.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.735723199311[0m
-  - accuracy = [92m0.842933333333[0m
-[92m  - Added entry 0.736[0m
-[93m- Instance 16 at dataset 6 (68.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.72438040545[0m
-  - accuracy = [92m0.803466666667[0m
-[92m  - Added entry 0.724[0m
-[93m- Instance 17 at dataset 6 (68.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.731868909097[0m
-  - accuracy = [92m0.8152[0m
-[92m  - Added entry 0.732[0m
-[93m- Instance 18 at dataset 6 (69.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.729571785872[0m
-  - accuracy = [92m0.813333333333[0m
-[92m  - Added entry 0.730[0m
-[93m- Instance 19 at dataset 6 (69.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.727857619424[0m
-  - accuracy = [92m0.812533333333[0m
-[92m  - Added entry 0.728[0m
-[92m- Processing on balance dataset done[0m
-[93m- Making an statistical independence tests[0m
-[92m  - 8 values are marked as best, with mean 0.736[0m
-[93m- Making a table (Radius to Grain)[0m
-[92m  - Table saved in tables/experiment_1_balance.tex[0m
-[93m- Making a csv file[0m
-[93m- Dataset ionosphere (7/10)[0m
-[92m- Dataset loaded (ionosphere dataset (351 samples, 34 features, 2 classes))[0m
-[93m- Instance 0 at dataset 7 (70.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 7 (70.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 7 (71.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 3 at dataset 7 (71.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.862696858747[0m
-  - accuracy = [92m0.885332994408[0m
-[92m  - Added entry 0.863[0m
-[93m- Instance 4 at dataset 7 (72.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 7 (72.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.762552975996[0m
-  - accuracy = [92m0.81197763091[0m
-[92m  - Added entry 0.763[0m
-[93m- Instance 6 at dataset 7 (73.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.842343535542[0m
-  - accuracy = [92m0.847590238943[0m
-[92m  - Added entry 0.842[0m
-[93m- Instance 7 at dataset 7 (73.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.859059127904[0m
-  - accuracy = [92m0.868235892222[0m
-[92m  - Added entry 0.859[0m
-[93m- Instance 8 at dataset 7 (74.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 9 at dataset 7 (74.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.793982493315[0m
-  - accuracy = [92m0.80558464667[0m
-[92m  - Added entry 0.794[0m
-[93m- Instance 10 at dataset 7 (75.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.863358905249[0m
-  - accuracy = [92m0.871794611083[0m
-[92m  - Added entry 0.863[0m
-[93m- Instance 11 at dataset 7 (75.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.87849926109[0m
-  - accuracy = [92m0.878202846975[0m
-[92m  - Added entry 0.878[0m
-[93m- Instance 12 at dataset 7 (76.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 13 at dataset 7 (76.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.824001983784[0m
-  - accuracy = [92m0.824799186579[0m
-[92m  - Added entry 0.824[0m
-[93m- Instance 14 at dataset 7 (77.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.797325983344[0m
-  - accuracy = [92m0.78206405694[0m
-[92m  - Added entry 0.797[0m
-[93m- Instance 15 at dataset 7 (77.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.840026077977[0m
-  - accuracy = [92m0.829753431622[0m
-[92m  - Added entry 0.840[0m
-[93m- Instance 16 at dataset 7 (78.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.709822913947[0m
-  - accuracy = [92m0.684519572954[0m
-[92m  - Added entry 0.710[0m
-[93m- Instance 17 at dataset 7 (78.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.739733181138[0m
-  - accuracy = [92m0.700899847483[0m
-[92m  - Added entry 0.740[0m
-[93m- Instance 18 at dataset 7 (79.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.757046668321[0m
-  - accuracy = [92m0.716606507372[0m
-[92m  - Added entry 0.757[0m
-[93m- Instance 19 at dataset 7 (79.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.751691259791[0m
-  - accuracy = [92m0.717999491612[0m
-[92m  - Added entry 0.752[0m
-[92m- Processing on ionosphere dataset done[0m
-[93m- Making an statistical independence tests[0m
-[92m  - 3 values are marked as best, with mean 0.878[0m
-[93m- Making a table (Radius to Grain)[0m
-[92m  - Table saved in tables/experiment_1_ionosphere.tex[0m
-[93m- Making a csv file[0m
-[93m- Dataset wisconsin (8/10)[0m
-[92m- Dataset loaded (wisconsin dataset (699 samples, 9 features, 2 classes))[0m
-[93m- Instance 0 at dataset 8 (80.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 8 (80.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 8 (81.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.92747865206[0m
-  - accuracy = [92m0.929901610018[0m
-[92m  - Added entry 0.927[0m
-[93m- Instance 3 at dataset 8 (81.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.957470027214[0m
-  - accuracy = [92m0.95314975722[0m
-[92m  - Added entry 0.957[0m
-[93m- Instance 4 at dataset 8 (82.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 8 (82.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.955126013627[0m
-  - accuracy = [92m0.95207641196[0m
-[92m  - Added entry 0.955[0m
-[93m- Instance 6 at dataset 8 (83.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.965364756941[0m
-  - accuracy = [92m0.959943777153[0m
-[92m  - Added entry 0.965[0m
-[93m- Instance 7 at dataset 8 (83.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.963533034293[0m
-  - accuracy = [92m0.95887107079[0m
-[92m  - Added entry 0.964[0m
-[93m- Instance 8 at dataset 8 (84.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.958891730711[0m
-  - accuracy = [92m0.955293892154[0m
-[92m  - Added entry 0.959[0m
-[93m- Instance 9 at dataset 8 (84.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.967539682676[0m
-  - accuracy = [92m0.962804753386[0m
-[92m  - Added entry 0.968[0m
-[93m- Instance 10 at dataset 8 (85.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.968877180289[0m
-  - accuracy = [92m0.964234602607[0m
-[92m  - Added entry 0.969[0m
-[93m- Instance 11 at dataset 8 (85.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.9691171141[0m
-  - accuracy = [92m0.964234602607[0m
-[92m  - Added entry 0.969[0m
-[93m- Instance 12 at dataset 8 (86.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.957571789345[0m
-  - accuracy = [92m0.954578967544[0m
-[92m  - Added entry 0.958[0m
-[93m- Instance 13 at dataset 8 (86.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.967166922979[0m
-  - accuracy = [92m0.964594301048[0m
-[92m  - Added entry 0.967[0m
-[93m- Instance 14 at dataset 8 (87.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.968008805089[0m
-  - accuracy = [92m0.965666368515[0m
-[92m  - Added entry 0.968[0m
-[93m- Instance 15 at dataset 8 (87.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.969606824222[0m
-  - accuracy = [92m0.965664451827[0m
-[92m  - Added entry 0.970[0m
-[93m- Instance 16 at dataset 8 (88.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.966508701855[0m
-  - accuracy = [92m0.964235241503[0m
-[92m  - Added entry 0.967[0m
-[93m- Instance 17 at dataset 8 (88.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.966088760978[0m
-  - accuracy = [92m0.965308586762[0m
-[92m  - Added entry 0.966[0m
-[93m- Instance 18 at dataset 8 (89.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.969724687139[0m
-  - accuracy = [92m0.967812420138[0m
-[92m  - Added entry 0.970[0m
-[93m- Instance 19 at dataset 8 (89.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.97020967672[0m
-  - accuracy = [92m0.967097495528[0m
-[92m  - Added entry 0.970[0m
-[92m- Processing on wisconsin dataset done[0m
-[93m- Making an statistical independence tests[0m
-[92m  - 11 values are marked as best, with mean 0.970[0m
-[93m- Making a table (Radius to Grain)[0m
-[92m  - Table saved in tables/experiment_1_wisconsin.tex[0m
-[93m- Making a csv file[0m
-[93m- Dataset yeast3 (9/10)[0m
-[92m- Dataset loaded (yeast3 dataset (1484 samples, 8 features, 2 classes))[0m
-[93m- Instance 0 at dataset 9 (90.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 1 at dataset 9 (90.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 2 at dataset 9 (91.00%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.708461068185[0m
-  - accuracy = [92m0.868261525675[0m
-[92m  - Added entry 0.708[0m
-[93m- Instance 3 at dataset 9 (91.50%) [EXP experiment_1][0m
-  - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.817041678851[0m
-  - accuracy = [92m0.887970550776[0m
-[92m  - Added entry 0.817[0m
-[93m- Instance 4 at dataset 9 (92.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
-[92m  - Added entry 0.500[0m
-[93m- Instance 5 at dataset 9 (92.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.770559177587[0m
-  - accuracy = [92m0.846698663127[0m
-[92m  - Added entry 0.771[0m
-[93m- Instance 6 at dataset 9 (93.00%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.868959996496[0m
-  - accuracy = [92m0.893867487001[0m
-[92m  - Added entry 0.869[0m
-[93m- Instance 7 at dataset 9 (93.50%) [EXP experiment_1][0m
-  - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.881046997621[0m
-  - accuracy = [92m0.895720898964[0m
-[92m  - Added entry 0.881[0m
-[93m- Instance 8 at dataset 9 (94.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.832356073035[0m
-  - accuracy = [92m0.905656111806[0m
-[92m  - Added entry 0.832[0m
-[93m- Instance 9 at dataset 9 (94.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.840286806931[0m
-  - accuracy = [92m0.886291020284[0m
-[92m  - Added entry 0.840[0m
-[93m- Instance 10 at dataset 9 (95.00%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.872759900241[0m
-  - accuracy = [92m0.897741242813[0m
-[92m  - Added entry 0.873[0m
-[93m- Instance 11 at dataset 9 (95.50%) [EXP experiment_1][0m
-  - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.87958428564[0m
-  - accuracy = [92m0.901615424109[0m
-[92m  - Added entry 0.880[0m
-[93m- Instance 12 at dataset 9 (96.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.829541958799[0m
-  - accuracy = [92m0.903128731857[0m
-[92m  - Added entry 0.830[0m
-[93m- Instance 13 at dataset 9 (96.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.848060342073[0m
-  - accuracy = [92m0.894374664931[0m
-[92m  - Added entry 0.848[0m
-[93m- Instance 14 at dataset 9 (97.00%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.87364192063[0m
-  - accuracy = [92m0.908522461345[0m
-[92m  - Added entry 0.874[0m
-[93m- Instance 15 at dataset 9 (97.50%) [EXP experiment_1][0m
-  - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.882725298831[0m
-  - accuracy = [92m0.909702047149[0m
-[92m  - Added entry 0.883[0m
-[93m- Instance 16 at dataset 9 (98.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m4[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.852363089734[0m
-  - accuracy = [92m0.9228449902[0m
-[92m  - Added entry 0.852[0m
-[93m- Instance 17 at dataset 9 (98.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m8[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.854886859654[0m
-  - accuracy = [92m0.889822118971[0m
-[92m  - Added entry 0.855[0m
-[93m- Instance 18 at dataset 9 (99.00%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m16[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.884235961934[0m
-  - accuracy = [92m0.913074439991[0m
-[92m  - Added entry 0.884[0m
-[93m- Instance 19 at dataset 9 (99.50%) [EXP experiment_1][0m
-  - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
-  - resample = [94m250[0m
-  - grain = [94m32[0m
-  - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.888933441567[0m
-  - accuracy = [92m0.916780129291[0m
-[92m  - Added entry 0.889[0m
-[92m- Processing on yeast3 dataset done[0m
-[93m- Making an statistical independence tests[0m
-[92m  - 7 values are marked as best, with mean 0.889[0m
-[93m- Making a table (Radius to Grain)[0m
-[92m  - Table saved in tables/experiment_1_yeast3.tex[0m
-[93m- Making a csv file[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b[0m
+[92m  - New model established[0m
