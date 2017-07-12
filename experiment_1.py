@@ -9,9 +9,9 @@ e = Experiment(
     datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'syntetic500f', 'balance', 'ionosphere', 'wisconsin', 'yeast3'],
     fixed = {
         'resample': 250,
-        'votingMethod': 5,
+        'votingMethod': 1,
         'approach': 2,
-        'limit': 60
+        'limit': 30
     },
     parameters = {
         'radius': [.1,.2,.3,.4,.5],
