@@ -11,6 +11,36 @@ datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic
     'syntetic500f','balance', 'yeast3', 'wisconsin', 'ionosphere']
 
 
+def radardata(classifiers, datasets):
+    results = []
+    data = []
+    for dataset in datasets:
+        csv_data = np.genfromtxt('csv/experiment_1_%s.csv' % dataset, delimiter=',')
+        data.append('%.3f' % float(np.max(csv_data[1:,1:])))
+
+    results.append({
+        'label': 'ECE',
+        'data': data,
+        'borderColor': colors[0],
+        'backgroundColor': 'rgba(0,0,0,0)',
+        'pointBackgroundColor': colors[0],
+        'pointBorderColor': 'white'
+    })
+    for idx, classifier in enumerate(classifiers):
+        data = []
+        for dataset in datasets:
+            key = '%sbac%s' % (classifier, dataset)
+            data.append('%.3f' % float(reference_dictionary[key]))
+
+        results.append({
+            'label': classifier.upper(),
+            'data': data,
+            'borderColor': colors[idx+1],
+            'backgroundColor': 'rgba(0,0,0,0)',
+            'pointBackgroundColor': colors[idx+1],
+            'pointBorderColor': 'white'
+        })
+    return {'labels': datasets, 'datasets': results}
 
 def chartjsdata(classifiers, datasets):
     results = []
@@ -22,7 +52,7 @@ def chartjsdata(classifiers, datasets):
     results.append({
         'label': 'ECE',
         'data': data,
-        'backgroundColor': [colors[0]] * (len(datasets))
+        'backgroundColor': colors[0]
     })
     for idx, classifier in enumerate(classifiers):
         data = []
@@ -33,16 +63,18 @@ def chartjsdata(classifiers, datasets):
         results.append({
             'label': classifier.upper(),
             'data': data,
-            'backgroundColor': [colors[idx+1]] * (len(datasets))
+            'backgroundColor': colors[idx+1]
         })
     return {'labels': datasets, 'datasets': results}
 
 def barplot(data, label='not'):
     options = {
+        'fill': True,
         'scales': {
             'yAxes': [{
                 'display': True,
                 'stacked': False,
+
                 'ticks': {
                     'min': 0,
                     'max': 1
@@ -53,6 +85,20 @@ def barplot(data, label='not'):
     print '<canvas id="%s" height="40em" width="100%%"></canvas>' % label
     print '<script>\nvar ctx_benchmark = document.getElementById("%s").getContext(\'2d\');' % label
     print 'var myChart = new Chart(ctx_benchmark, { type: \'bar\', data: %s, options: %s });' % (json.dumps(data), json.dumps(options))
+    print '</script>'
+
+def radarplot(data, label='not'):
+    options = {
+        'scale': {
+            'ticks': {
+                'min': .3,
+                'max': 1
+            }
+        }
+    }
+    print '<canvas id="%s" height="60em" width="100%%"></canvas>' % label
+    print '<script>\nvar ctx_benchmark = document.getElementById("%s").getContext(\'2d\');' % label
+    print 'var myChart = new Chart(ctx_benchmark, { type: \'radar\', data: %s, options: %s});' % (json.dumps(data), json.dumps(options))
     print '</script>'
 
 datasets_dictionary = {}
@@ -103,11 +149,28 @@ with open('data/reference.csv', 'rb') as csvfile:
             reference_dictionary.update(
                 {'%s%s' % (headers[idx], row[0]): cell})
 
+
+
+
+
+
+
+
+
+
+
+
 # Frontmatter
 print '---\nlayout: default\n---\n'
 
 # Congig yaml
 config = yaml.load(open("_config.yml", "r"))
+
+radarplot(radardata(
+    classifiers = classifiers,
+    datasets = datasets
+), label='radar')
+
 
 # Abstract
 print '# Abstract'
@@ -118,6 +181,11 @@ print '> %s\n' % config['abstract']
 # Benchmark
 print '# Benchmark data\n'
 benchmark_datasets = datasets[7:]
+radarplot(radardata(
+    classifiers = classifiers,
+    datasets = benchmark_datasets
+), label='radar2')
+
 barplot(chartjsdata(
     classifiers = classifiers,
     datasets = benchmark_datasets
@@ -130,6 +198,11 @@ for dataset in benchmark_datasets:
 # Synthetic
 print '# Synthetic data\n'
 synthetic_datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'syntetic500f']
+
+radarplot(radardata(
+    classifiers = classifiers,
+    datasets = synthetic_datasets
+), label='radar3')
 
 barplot(chartjsdata(
     classifiers = classifiers,
