@@ -30,20 +30,366 @@
 </blockquote>
 
 <h1 id="benchmark-data">Benchmark data</h1>
+
 <canvas id="benchmark" height="40em" width="100%"></canvas>
 <script>
 var ctx_benchmark = document.getElementById("benchmark").getContext('2d');
-var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["balance", "ionosphere", "wisconsin", "yeast3"], "datasets": [{"data": ["0.736", "0.878", "0.970", "0.889"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.771", "0.729", "0.949", "0.824"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.766", "0.862", "0.957", "0.557"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.719", "0.852", "0.908", "0.835"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.640", "0.638", "0.500", "0.770"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.781", "0.608", "0.954", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
+var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["balance", "yeast3", "wisconsin", "ionosphere"], "datasets": [{"data": ["0.736", "0.889", "0.970", "0.878"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.774", "0.801", "0.945", "0.730"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.768", "0.558", "0.956", "0.837"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.727", "0.816", "0.901", "0.830"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.640", "0.834", "0.500", "0.664"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.778", "0.500", "0.951", "0.581"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
 </script>
 
+<table>
+  <thead>
+    <tr>
+      <th>dataset</th>
+      <th style="text-align: right">features</th>
+      <th style="text-align: right">classes</th>
+      <th style="text-align: right">samples</th>
+      <th>ratio</th>
+      <th>tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>balance</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">625</td>
+      <td>6:1</td>
+      <td>multi-class imbalanced</td>
+    </tr>
+    <tr>
+      <td>yeast3</td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1484</td>
+      <td>8:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+    <tr>
+      <td>wisconsin</td>
+      <td style="text-align: right">9</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">699</td>
+      <td>2:1</td>
+      <td>binary multi-feature</td>
+    </tr>
+    <tr>
+      <td>ionosphere</td>
+      <td style="text-align: right">34</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">351</td>
+      <td>2:1</td>
+      <td>binary multi-feature</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="balance"><code class="highlighter-rouge">balance</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.653</td>
+      <td style="text-align: right">0.699</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.653</td>
+      <td style="text-align: right">0.699</td>
+      <td style="text-align: right">0.701</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.690</td>
+      <td style="text-align: right">0.705</td>
+      <td style="text-align: right">0.704</td>
+      <td style="text-align: right">0.720</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.690</td>
+      <td style="text-align: right">0.730</td>
+      <td style="text-align: right">0.735</td>
+      <td style="text-align: right">0.736</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.724</td>
+      <td style="text-align: right">0.732</td>
+      <td style="text-align: right">0.730</td>
+      <td style="text-align: right">0.728</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="yeast3"><code class="highlighter-rouge">yeast3</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.708</td>
+      <td style="text-align: right">0.817</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.771</td>
+      <td style="text-align: right">0.869</td>
+      <td style="text-align: right">0.881</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.832</td>
+      <td style="text-align: right">0.840</td>
+      <td style="text-align: right">0.873</td>
+      <td style="text-align: right">0.880</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.830</td>
+      <td style="text-align: right">0.848</td>
+      <td style="text-align: right">0.874</td>
+      <td style="text-align: right">0.883</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.852</td>
+      <td style="text-align: right">0.855</td>
+      <td style="text-align: right">0.884</td>
+      <td style="text-align: right">0.889</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="wisconsin"><code class="highlighter-rouge">wisconsin</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.927</td>
+      <td style="text-align: right">0.957</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.955</td>
+      <td style="text-align: right">0.965</td>
+      <td style="text-align: right">0.964</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.959</td>
+      <td style="text-align: right">0.968</td>
+      <td style="text-align: right">0.969</td>
+      <td style="text-align: right">0.969</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.958</td>
+      <td style="text-align: right">0.967</td>
+      <td style="text-align: right">0.968</td>
+      <td style="text-align: right">0.970</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.967</td>
+      <td style="text-align: right">0.966</td>
+      <td style="text-align: right">0.970</td>
+      <td style="text-align: right">0.970</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="ionosphere"><code class="highlighter-rouge">ionosphere</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.863</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.763</td>
+      <td style="text-align: right">0.842</td>
+      <td style="text-align: right">0.859</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.794</td>
+      <td style="text-align: right">0.863</td>
+      <td style="text-align: right">0.878</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.50</td>
+      <td style="text-align: right">0.824</td>
+      <td style="text-align: right">0.797</td>
+      <td style="text-align: right">0.840</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.71</td>
+      <td style="text-align: right">0.740</td>
+      <td style="text-align: right">0.757</td>
+      <td style="text-align: right">0.752</td>
+    </tr>
+  </tbody>
+</table>
+
 <h1 id="synthetic-data">Synthetic data</h1>
+
 <canvas id="synthetic" height="40em" width="100%"></canvas>
 <script>
 var ctx_benchmark = document.getElementById("synthetic").getContext('2d');
-var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["syntetic5f", "syntetic10f", "syntetic20f", "syntetic50f", "syntetic100f", "syntetic200f", "syntetic500f"], "datasets": [{"data": ["0.955", "0.860", "0.880", "0.887", "0.890", "0.816", "0.679"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.927", "0.709", "0.562", "0.547", "0.561", "0.511", "0.502"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.948", "0.845", "0.771", "0.775", "0.767", "0.623", "0.500"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.927", "0.746", "0.682", "0.868", "0.771", "0.871", "0.668"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.926", "0.771", "0.722", "0.500", "0.789", "0.500", "0.500"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.716", "0.500", "0.500", "0.500", "0.500", "0.500", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
+var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["syntetic5f", "syntetic10f", "syntetic20f", "syntetic50f"], "datasets": [{"data": ["0.955", "0.860", "0.880", "0.887"], "backgroundColor": ["#e53935", "#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.924", "0.704", "0.559", "0.539"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.948", "0.848", "0.748", "0.760"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.917", "0.792", "0.679", "0.867"], "backgroundColor": ["#dce775", "#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.936", "0.794", "0.705", "0.500"], "backgroundColor": ["#81c784", "#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.739", "0.500", "0.500", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
 </script>
 
-<h1 id="result-tables">Result tables</h1>
+<table>
+  <thead>
+    <tr>
+      <th>dataset</th>
+      <th style="text-align: right">features</th>
+      <th style="text-align: right">classes</th>
+      <th style="text-align: right">samples</th>
+      <th>ratio</th>
+      <th>tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>syntetic5f</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary imbalanced</td>
+    </tr>
+    <tr>
+      <td>syntetic10f</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>8:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+    <tr>
+      <td>syntetic20f</td>
+      <td style="text-align: right">20</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+    <tr>
+      <td>syntetic50f</td>
+      <td style="text-align: right">50</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<canvas id="synthetic2" height="40em" width="100%"></canvas>
+<script>
+var ctx_benchmark = document.getElementById("synthetic2").getContext('2d');
+var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["syntetic100f", "syntetic200f", "syntetic500f"], "datasets": [{"data": ["0.890", "0.816", "0.679"], "backgroundColor": ["#e53935", "#e53935", "#e53935"], "label": "ECE"}, {"data": ["0.549", "0.509", "0.510"], "backgroundColor": ["#ba68c8", "#ba68c8", "#ba68c8"], "label": "KNN"}, {"data": ["0.776", "0.630", "0.502"], "backgroundColor": ["#64b5f6", "#64b5f6", "#64b5f6"], "label": "GNB"}, {"data": ["0.778", "0.907", "0.666"], "backgroundColor": ["#dce775", "#dce775", "#dce775"], "label": "DTC"}, {"data": ["0.747", "0.500", "0.500"], "backgroundColor": ["#81c784", "#81c784", "#81c784"], "label": "MLP"}, {"data": ["0.500", "0.500", "0.500"], "backgroundColor": ["#ffb74d", "#ffb74d", "#ffb74d"], "label": "SVC"}]}, options: {"scales": {"yAxes": [{"ticks": {"max": 1, "min": 0}, "stacked": false, "display": true}]}} });
+</script>
+
+<table>
+  <thead>
+    <tr>
+      <th>dataset</th>
+      <th style="text-align: right">features</th>
+      <th style="text-align: right">classes</th>
+      <th style="text-align: right">samples</th>
+      <th>ratio</th>
+      <th>tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>syntetic100f</td>
+      <td style="text-align: right">100</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+    <tr>
+      <td>syntetic200f</td>
+      <td style="text-align: right">200</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+    <tr>
+      <td>syntetic500f</td>
+      <td style="text-align: right">500</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1000</td>
+      <td>9:1</td>
+      <td>binary multi-feature imbalanced</td>
+    </tr>
+  </tbody>
+</table>
+
 <h1 id="syntetic5f"><code class="highlighter-rouge">syntetic5f</code></h1>
 
 <table>
@@ -248,7 +594,7 @@ var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["synteti
   </tbody>
 </table>
 
-<h1 id="balance"><code class="highlighter-rouge">balance</code></h1>
+<h1 id="syntetic100f"><code class="highlighter-rouge">syntetic100f</code></h1>
 
 <table>
   <thead>
@@ -265,189 +611,138 @@ var myChart = new Chart(ctx_benchmark, { type: 'bar', data: {"labels": ["synteti
       <td style="text-align: right">0.1</td>
       <td style="text-align: right">0.500</td>
       <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.653</td>
-      <td style="text-align: right">0.699</td>
+      <td style="text-align: right">0.507</td>
+      <td style="text-align: right">0.500</td>
     </tr>
     <tr>
       <td style="text-align: right">0.2</td>
       <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.653</td>
-      <td style="text-align: right">0.699</td>
-      <td style="text-align: right">0.701</td>
+      <td style="text-align: right">0.537</td>
+      <td style="text-align: right">0.621</td>
+      <td style="text-align: right">0.577</td>
     </tr>
     <tr>
       <td style="text-align: right">0.3</td>
-      <td style="text-align: right">0.690</td>
-      <td style="text-align: right">0.705</td>
-      <td style="text-align: right">0.704</td>
-      <td style="text-align: right">0.720</td>
+      <td style="text-align: right">0.560</td>
+      <td style="text-align: right">0.827</td>
+      <td style="text-align: right">0.620</td>
+      <td style="text-align: right">0.868</td>
     </tr>
     <tr>
       <td style="text-align: right">0.4</td>
-      <td style="text-align: right">0.690</td>
-      <td style="text-align: right">0.730</td>
-      <td style="text-align: right">0.735</td>
-      <td style="text-align: right">0.736</td>
+      <td style="text-align: right">0.521</td>
+      <td style="text-align: right">0.843</td>
+      <td style="text-align: right">0.593</td>
+      <td style="text-align: right">0.513</td>
     </tr>
     <tr>
       <td style="text-align: right">0.5</td>
-      <td style="text-align: right">0.724</td>
-      <td style="text-align: right">0.732</td>
-      <td style="text-align: right">0.730</td>
-      <td style="text-align: right">0.728</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="ionosphere"><code class="highlighter-rouge">ionosphere</code></h1>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: right">.</th>
-      <th style="text-align: right">4.0</th>
-      <th style="text-align: right">8.0</th>
-      <th style="text-align: right">16.0</th>
-      <th style="text-align: right">32.0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: right">0.1</td>
-      <td style="text-align: right">0.50</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.863</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.2</td>
-      <td style="text-align: right">0.50</td>
-      <td style="text-align: right">0.763</td>
-      <td style="text-align: right">0.842</td>
-      <td style="text-align: right">0.859</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.3</td>
-      <td style="text-align: right">0.50</td>
-      <td style="text-align: right">0.794</td>
-      <td style="text-align: right">0.863</td>
-      <td style="text-align: right">0.878</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.4</td>
-      <td style="text-align: right">0.50</td>
-      <td style="text-align: right">0.824</td>
-      <td style="text-align: right">0.797</td>
-      <td style="text-align: right">0.840</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.5</td>
-      <td style="text-align: right">0.71</td>
-      <td style="text-align: right">0.740</td>
-      <td style="text-align: right">0.757</td>
-      <td style="text-align: right">0.752</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="wisconsin"><code class="highlighter-rouge">wisconsin</code></h1>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: right">.</th>
-      <th style="text-align: right">4.0</th>
-      <th style="text-align: right">8.0</th>
-      <th style="text-align: right">16.0</th>
-      <th style="text-align: right">32.0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: right">0.1</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.927</td>
-      <td style="text-align: right">0.957</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.2</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.955</td>
-      <td style="text-align: right">0.965</td>
-      <td style="text-align: right">0.964</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.3</td>
-      <td style="text-align: right">0.959</td>
-      <td style="text-align: right">0.968</td>
-      <td style="text-align: right">0.969</td>
-      <td style="text-align: right">0.969</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.4</td>
-      <td style="text-align: right">0.958</td>
-      <td style="text-align: right">0.967</td>
-      <td style="text-align: right">0.968</td>
-      <td style="text-align: right">0.970</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.5</td>
-      <td style="text-align: right">0.967</td>
-      <td style="text-align: right">0.966</td>
-      <td style="text-align: right">0.970</td>
-      <td style="text-align: right">0.970</td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="yeast3"><code class="highlighter-rouge">yeast3</code></h1>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: right">.</th>
-      <th style="text-align: right">4.0</th>
-      <th style="text-align: right">8.0</th>
-      <th style="text-align: right">16.0</th>
-      <th style="text-align: right">32.0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: right">0.1</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.708</td>
-      <td style="text-align: right">0.817</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.2</td>
-      <td style="text-align: right">0.500</td>
-      <td style="text-align: right">0.771</td>
-      <td style="text-align: right">0.869</td>
-      <td style="text-align: right">0.881</td>
-    </tr>
-    <tr>
-      <td style="text-align: right">0.3</td>
-      <td style="text-align: right">0.832</td>
-      <td style="text-align: right">0.840</td>
+      <td style="text-align: right">0.611</td>
+      <td style="text-align: right">0.739</td>
       <td style="text-align: right">0.873</td>
-      <td style="text-align: right">0.880</td>
+      <td style="text-align: right">0.890</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="syntetic200f"><code class="highlighter-rouge">syntetic200f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.501</td>
+      <td style="text-align: right">0.500</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.510</td>
+      <td style="text-align: right">0.501</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.533</td>
+      <td style="text-align: right">0.529</td>
+      <td style="text-align: right">0.504</td>
+      <td style="text-align: right">0.662</td>
     </tr>
     <tr>
       <td style="text-align: right">0.4</td>
-      <td style="text-align: right">0.830</td>
-      <td style="text-align: right">0.848</td>
-      <td style="text-align: right">0.874</td>
-      <td style="text-align: right">0.883</td>
+      <td style="text-align: right">0.506</td>
+      <td style="text-align: right">0.661</td>
+      <td style="text-align: right">0.694</td>
+      <td style="text-align: right">0.494</td>
     </tr>
     <tr>
       <td style="text-align: right">0.5</td>
-      <td style="text-align: right">0.852</td>
-      <td style="text-align: right">0.855</td>
-      <td style="text-align: right">0.884</td>
-      <td style="text-align: right">0.889</td>
+      <td style="text-align: right">0.532</td>
+      <td style="text-align: right">0.635</td>
+      <td style="text-align: right">0.602</td>
+      <td style="text-align: right">0.816</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="syntetic500f"><code class="highlighter-rouge">syntetic500f</code></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">.</th>
+      <th style="text-align: right">4.0</th>
+      <th style="text-align: right">8.0</th>
+      <th style="text-align: right">16.0</th>
+      <th style="text-align: right">32.0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">0.1</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.500</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.2</td>
+      <td style="text-align: right">0.500</td>
+      <td style="text-align: right">0.505</td>
+      <td style="text-align: right">0.506</td>
+      <td style="text-align: right">0.503</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.3</td>
+      <td style="text-align: right">0.498</td>
+      <td style="text-align: right">0.510</td>
+      <td style="text-align: right">0.501</td>
+      <td style="text-align: right">0.489</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.4</td>
+      <td style="text-align: right">0.499</td>
+      <td style="text-align: right">0.502</td>
+      <td style="text-align: right">0.622</td>
+      <td style="text-align: right">0.494</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">0.5</td>
+      <td style="text-align: right">0.501</td>
+      <td style="text-align: right">0.505</td>
+      <td style="text-align: right">0.679</td>
+      <td style="text-align: right">0.516</td>
     </tr>
   </tbody>
 </table>

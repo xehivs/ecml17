@@ -7,6 +7,10 @@ import csv
 
 classifiers = ['knn', 'gnb', 'dtc', 'mlp', 'svc']
 colors = ['#e53935', '#ba68c8', '#64b5f6', '#dce775', '#81c784', '#ffb74d']
+datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f',
+    'syntetic500f','balance', 'yeast3', 'wisconsin', 'ionosphere']
+
+
 
 def chartjsdata(classifiers, datasets):
     results = []
@@ -51,6 +55,44 @@ def barplot(data, label='not'):
     print 'var myChart = new Chart(ctx_benchmark, { type: \'bar\', data: %s, options: %s });' % (json.dumps(data), json.dumps(options))
     print '</script>'
 
+datasets_dictionary = {}
+with open('data/datasets.csv', 'rb') as csvfile:
+    reference_reader = csv.reader(csvfile, delimiter=',')
+    headers = reference_reader.next()
+    for row in reference_reader:
+        for idx, cell in enumerate(row):
+            datasets_dictionary.update(
+                {'%s%s' % (headers[idx], row[0]): cell})
+
+def datasets_table(datasets):
+    datasets_table = []
+    for dataset in datasets:
+        datasets_table.append([dataset,
+            datasets_dictionary['features%s' % dataset],
+            datasets_dictionary['classes%s' % dataset],
+            datasets_dictionary['samples%s' % dataset],
+            datasets_dictionary['ratio%s' % dataset],
+            datasets_dictionary['tags%s' % dataset]])
+
+    writer = pytablewriter.MarkdownTableWriter()
+    writer.header_list = ['dataset', 'features', 'classes', 'samples', 'ratio', 'tags']
+    writer.value_matrix = datasets_table
+
+    writer.write_table()
+    print '\n\n'
+
+def result_table(dataset):
+    csvArray = np.genfromtxt('csv/experiment_1_%s.csv' %
+                             dataset, delimiter=',')
+    print '# `%s`\n' % dataset
+
+    writer = pytablewriter.MarkdownTableWriter()
+    writer.header_list = csvArray[0,:].tolist()
+    writer.value_matrix = csvArray[1:,:].tolist()
+    writer.header_list[0] = "."
+
+    writer.write_table()
+
 
 reference_dictionary = {}
 with open('data/reference.csv', 'rb') as csvfile:
@@ -71,36 +113,36 @@ config = yaml.load(open("_config.yml", "r"))
 print '# Abstract'
 print '> %s\n' % config['abstract']
 
+
+
 # Benchmark
-print '# Benchmark data'
+print '# Benchmark data\n'
+benchmark_datasets = datasets[7:]
 barplot(chartjsdata(
     classifiers = classifiers,
-    datasets = ['balance', 'ionosphere', 'wisconsin', 'yeast3']
+    datasets = benchmark_datasets
 ), label='benchmark')
+datasets_table(benchmark_datasets)
+
+for dataset in benchmark_datasets:
+    result_table(dataset)
 
 # Synthetic
-print '# Synthetic data'
+print '# Synthetic data\n'
+synthetic_datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'syntetic500f']
+
 barplot(chartjsdata(
     classifiers = classifiers,
-    datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f', 'syntetic50f', 'syntetic100f', 'syntetic200f', 'syntetic500f']
+    datasets = synthetic_datasets[:4]
 ), label='synthetic')
+datasets_table(synthetic_datasets[:4])
+print '\n---\n'
 
+barplot(chartjsdata(
+    classifiers = classifiers,
+    datasets = synthetic_datasets[4:]
+), label='synthetic2')
+datasets_table(synthetic_datasets[4:])
 
-print '# Result tables'
-datasets = ['syntetic5f', 'syntetic10f', 'syntetic20f',
-    'syntetic50f', 'balance', 'ionosphere', 'wisconsin', 'yeast3']
-
-tables = ['csv/experiment_1_syntetic5f.csv',
-    'csv/experiment_1_syntetic10f.csv']
-
-for dataset in datasets:
-    csvArray = np.genfromtxt('csv/experiment_1_%s.csv' %
-                             dataset, delimiter=',')
-    print '# `%s`\n' % dataset
-
-    writer = pytablewriter.MarkdownTableWriter()
-    writer.header_list = csvArray[0,:].tolist()
-    writer.value_matrix = csvArray[1:,:].tolist()
-    writer.header_list[0] = "."
-
-    writer.write_table()
+for dataset in synthetic_datasets:
+    result_table(dataset)
