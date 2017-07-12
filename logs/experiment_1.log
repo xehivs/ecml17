@@ -5,8 +5,8 @@
 # Fixed parameters:
 #   resample = 250
 #   approach = 2
-#   limit = 30
-#   votingMethod = 1
+#   limit = 60
+#   votingMethod = 5
 # Testing parameters:
 #   grain (4) 4 -- 32
 #   radius (5) 0.1 -- 0.5
@@ -17,227 +17,287 @@
 [92m- Dataset loaded (syntetic5f dataset (1000 samples, 5 features, 2 classes))[0m
 [93m- Instance 0 at dataset 0 (0.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541560fc54746d10d67b4][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 0 (0.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541590fc54746d10d67b5][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 0 (0.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.925883759956[0m
-  - accuracy = [92m0.962[0m
-[92m  - Added entry 0.926[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965415c0fc54746d10d67b6][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.930111112565[0m
+  - accuracy = [92m0.95975[0m
+[92m  - Added entry 0.930[0m
 [93m- Instance 3 at dataset 0 (1.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.954723136477[0m
-  - accuracy = [92m0.972[0m
-[92m  - Added entry 0.955[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541620fc54746d10d67b7][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.952935521025[0m
+  - accuracy = [92m0.965[0m
+[92m  - Added entry 0.953[0m
 [93m- Instance 4 at dataset 0 (1.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541640fc54746d10d67b8][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.896[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 0 (2.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.93458881582[0m
-  - accuracy = [92m0.95275[0m
-[92m  - Added entry 0.935[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541670fc54746d10d67b9][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.937054132807[0m
+  - accuracy = [92m0.959[0m
+[92m  - Added entry 0.937[0m
 [93m- Instance 6 at dataset 0 (2.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.950701636231[0m
-  - accuracy = [92m0.961[0m
-[92m  - Added entry 0.951[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965416c0fc54746d10d67ba][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.949932226274[0m
+  - accuracy = [92m0.9615[0m
+[92m  - Added entry 0.950[0m
 [93m- Instance 7 at dataset 0 (3.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.954232548767[0m
-  - accuracy = [92m0.9655[0m
-[92m  - Added entry 0.954[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541790fc54746d10d67bb][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.950782542271[0m
+  - accuracy = [92m0.963[0m
+[92m  - Added entry 0.951[0m
 [93m- Instance 8 at dataset 0 (3.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.887971810769[0m
-  - accuracy = [92m0.83[0m
-[92m  - Added entry 0.888[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965417c0fc54746d10d67bc][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.943250510669[0m
+  - accuracy = [92m0.929[0m
+[92m  - Added entry 0.943[0m
 [93m- Instance 9 at dataset 0 (4.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.938099554696[0m
-  - accuracy = [92m0.9555[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965417f0fc54746d10d67bd][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.937522109781[0m
+  - accuracy = [92m0.95425[0m
 [92m  - Added entry 0.938[0m
 [93m- Instance 10 at dataset 0 (4.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.951225041275[0m
-  - accuracy = [92m0.95825[0m
-[92m  - Added entry 0.951[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541860fc54746d10d67be][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.948600702964[0m
+  - accuracy = [92m0.95725[0m
+[92m  - Added entry 0.949[0m
 [93m- Instance 11 at dataset 0 (5.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.949865643003[0m
-  - accuracy = [92m0.95775[0m
-[92m  - Added entry 0.950[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541a00fc54746d10d67bf][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.951234323268[0m
+  - accuracy = [92m0.95825[0m
+[92m  - Added entry 0.951[0m
 [93m- Instance 12 at dataset 0 (5.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.887971810769[0m
-  - accuracy = [92m0.83[0m
-[92m  - Added entry 0.888[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541a20fc54746d10d67c0][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.943250510669[0m
+  - accuracy = [92m0.929[0m
+[92m  - Added entry 0.943[0m
 [93m- Instance 13 at dataset 0 (5.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.936838489959[0m
-  - accuracy = [92m0.95325[0m
-[92m  - Added entry 0.937[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541a70fc54746d10d67c1][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.942814959254[0m
+  - accuracy = [92m0.945[0m
+[92m  - Added entry 0.943[0m
 [93m- Instance 14 at dataset 0 (6.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.949836016211[0m
-  - accuracy = [92m0.954[0m
-[92m  - Added entry 0.950[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541b30fc54746d10d67c2][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.945998218265[0m
+  - accuracy = [92m0.9545[0m
+[92m  - Added entry 0.946[0m
 [93m- Instance 15 at dataset 0 (6.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.949094244261[0m
-  - accuracy = [92m0.95275[0m
-[92m  - Added entry 0.949[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541dc0fc54746d10d67c3][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.947382209358[0m
+  - accuracy = [92m0.95325[0m
+[92m  - Added entry 0.947[0m
 [93m- Instance 16 at dataset 0 (7.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.919757611591[0m
-  - accuracy = [92m0.887[0m
-[92m  - Added entry 0.920[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541df0fc54746d10d67c4][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.835607707955[0m
+  - accuracy = [92m0.96175[0m
+[92m  - Added entry 0.836[0m
 [93m- Instance 17 at dataset 0 (7.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.936456858627[0m
-  - accuracy = [92m0.947[0m
-[92m  - Added entry 0.936[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541e50fc54746d10d67c5][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.940618300394[0m
+  - accuracy = [92m0.95075[0m
+[92m  - Added entry 0.941[0m
 [93m- Instance 18 at dataset 0 (8.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.944478279468[0m
-  - accuracy = [92m0.9445[0m
-[92m  - Added entry 0.944[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596541f80fc54746d10d67c6][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.943245057353[0m
+  - accuracy = [92m0.944[0m
+[92m  - Added entry 0.943[0m
 [93m- Instance 19 at dataset 0 (8.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.946446606671[0m
-  - accuracy = [92m0.948[0m
-[92m  - Added entry 0.946[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965423c0fc54746d10d67c7][0m
+[92m  - Results get from database [ece_ds_syntetic5f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.944032927025[0m
+  - accuracy = [92m0.94725[0m
+[92m  - Added entry 0.944[0m
 [92m- Processing on syntetic5f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 9 values are marked as best, with mean 0.955[0m
+[92m  - 9 values are marked as best, with mean 0.953[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic5f.tex[0m
 [93m- Making a csv file[0m
@@ -245,227 +305,287 @@
 [92m- Dataset loaded (syntetic10f dataset (1000 samples, 10 features, 2 classes))[0m
 [93m- Instance 0 at dataset 1 (9.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542460fc54746d10d67c8][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 1 (9.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542500fc54746d10d67c9][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 1 (10.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.691864502248[0m
-  - accuracy = [92m0.9035[0m
-[92m  - Added entry 0.692[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965425c0fc54746d10d67ca][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.75592564817[0m
+  - accuracy = [92m0.902[0m
+[92m  - Added entry 0.756[0m
 [93m- Instance 3 at dataset 1 (10.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.775763103864[0m
-  - accuracy = [92m0.9155[0m
-[92m  - Added entry 0.776[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542770fc54746d10d67cb][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.824278320918[0m
+  - accuracy = [92m0.85875[0m
+[92m  - Added entry 0.824[0m
 [93m- Instance 4 at dataset 1 (10.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542810fc54746d10d67cc][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.893[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 1 (11.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.789232381847[0m
-  - accuracy = [92m0.8955[0m
-[92m  - Added entry 0.789[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965428c0fc54746d10d67cd][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.781685977873[0m
+  - accuracy = [92m0.8775[0m
+[92m  - Added entry 0.782[0m
 [93m- Instance 6 at dataset 1 (11.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.830510059315[0m
-  - accuracy = [92m0.89475[0m
-[92m  - Added entry 0.831[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542a20fc54746d10d67ce][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.85485264096[0m
+  - accuracy = [92m0.83325[0m
+[92m  - Added entry 0.855[0m
 [93m- Instance 7 at dataset 1 (12.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.833524146257[0m
-  - accuracy = [92m0.88375[0m
-[92m  - Added entry 0.834[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542de0fc54746d10d67cf][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.852427553548[0m
+  - accuracy = [92m0.836[0m
+[92m  - Added entry 0.852[0m
 [93m- Instance 8 at dataset 1 (12.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.778958159418[0m
-  - accuracy = [92m0.85525[0m
-[92m  - Added entry 0.779[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542e90fc54746d10d67d0][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.837086121012[0m
+  - accuracy = [92m0.8375[0m
+[92m  - Added entry 0.837[0m
 [93m- Instance 9 at dataset 1 (13.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.841502394204[0m
-  - accuracy = [92m0.8815[0m
-[92m  - Added entry 0.842[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596542f70fc54746d10d67d1][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.853909698119[0m
+  - accuracy = [92m0.849[0m
+[92m  - Added entry 0.854[0m
 [93m- Instance 10 at dataset 1 (13.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.84408476739[0m
-  - accuracy = [92m0.88425[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596543150fc54746d10d67d2][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.844400701253[0m
+  - accuracy = [92m0.82525[0m
 [92m  - Added entry 0.844[0m
 [93m- Instance 11 at dataset 1 (14.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.82826193143[0m
-  - accuracy = [92m0.871[0m
-[92m  - Added entry 0.828[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596543870fc54746d10d67d3][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.851071645851[0m
+  - accuracy = [92m0.839[0m
+[92m  - Added entry 0.851[0m
 [93m- Instance 12 at dataset 1 (14.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.842909486761[0m
-  - accuracy = [92m0.862[0m
-[92m  - Added entry 0.843[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596543920fc54746d10d67d4][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.837086121012[0m
+  - accuracy = [92m0.8375[0m
+[92m  - Added entry 0.837[0m
 [93m- Instance 13 at dataset 1 (15.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.842049795919[0m
-  - accuracy = [92m0.86975[0m
-[92m  - Added entry 0.842[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596543a70fc54746d10d67d5][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.842581198246[0m
+  - accuracy = [92m0.8275[0m
+[92m  - Added entry 0.843[0m
 [93m- Instance 14 at dataset 1 (15.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.84342430585[0m
-  - accuracy = [92m0.874[0m
-[92m  - Added entry 0.843[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596543dc0fc54746d10d67d6][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.852999382209[0m
+  - accuracy = [92m0.84975[0m
+[92m  - Added entry 0.853[0m
 [93m- Instance 15 at dataset 1 (15.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.846480791063[0m
-  - accuracy = [92m0.87225[0m
-[92m  - Added entry 0.846[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596544930fc54746d10d67d7][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.849618991888[0m
+  - accuracy = [92m0.84925[0m
+[92m  - Added entry 0.850[0m
 [93m- Instance 16 at dataset 1 (16.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.852918237878[0m
-  - accuracy = [92m0.851[0m
-[92m  - Added entry 0.853[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596544a10fc54746d10d67d8][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.843260587264[0m
+  - accuracy = [92m0.85275[0m
+[92m  - Added entry 0.843[0m
 [93m- Instance 17 at dataset 1 (16.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.857390620596[0m
-  - accuracy = [92m0.86975[0m
-[92m  - Added entry 0.857[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596544bd0fc54746d10d67d9][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.835591951456[0m
+  - accuracy = [92m0.8095[0m
+[92m  - Added entry 0.836[0m
 [93m- Instance 18 at dataset 1 (17.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.859973618888[0m
-  - accuracy = [92m0.869[0m
-[92m  - Added entry 0.860[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965450e0fc54746d10d67da][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.848664002646[0m
+  - accuracy = [92m0.84025[0m
+[92m  - Added entry 0.849[0m
 [93m- Instance 19 at dataset 1 (17.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.856074603114[0m
-  - accuracy = [92m0.87125[0m
-[92m  - Added entry 0.856[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965463b0fc54746d10d67db][0m
+[92m  - Results get from database [ece_ds_syntetic10f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.849162293604[0m
+  - accuracy = [92m0.8485[0m
+[92m  - Added entry 0.849[0m
 [92m- Processing on syntetic10f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 10 values are marked as best, with mean 0.860[0m
+[92m  - 14 values are marked as best, with mean 0.855[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic10f.tex[0m
 [93m- Making a csv file[0m
@@ -473,227 +593,287 @@
 [92m- Dataset loaded (syntetic20f dataset (1000 samples, 20 features, 2 classes))[0m
 [93m- Instance 0 at dataset 2 (18.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546490fc54746d10d67dc][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 2 (18.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546570fc54746d10d67dd][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 2 (19.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.548227556465[0m
-  - accuracy = [92m0.8895[0m
-[92m  - Added entry 0.548[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546670fc54746d10d67de][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.594612850591[0m
+  - accuracy = [92m0.88725[0m
+[92m  - Added entry 0.595[0m
 [93m- Instance 3 at dataset 2 (19.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.527385106893[0m
-  - accuracy = [92m0.8955[0m
-[92m  - Added entry 0.527[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546890fc54746d10d67df][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.836313923256[0m
+  - accuracy = [92m0.82875[0m
+[92m  - Added entry 0.836[0m
 [93m- Instance 4 at dataset 2 (20.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546970fc54746d10d67e0][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.895[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 2 (20.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.582745981265[0m
-  - accuracy = [92m0.88975[0m
-[92m  - Added entry 0.583[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546a60fc54746d10d67e1][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.733812717331[0m
+  - accuracy = [92m0.87775[0m
+[92m  - Added entry 0.734[0m
 [93m- Instance 6 at dataset 2 (20.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.695503382114[0m
-  - accuracy = [92m0.89275[0m
-[92m  - Added entry 0.696[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596546c30fc54746d10d67e2][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.833333842427[0m
+  - accuracy = [92m0.768[0m
+[92m  - Added entry 0.833[0m
 [93m- Instance 7 at dataset 2 (21.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.612650905785[0m
-  - accuracy = [92m0.87675[0m
-[92m  - Added entry 0.613[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596547130fc54746d10d67e3][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.809609873735[0m
+  - accuracy = [92m0.707[0m
+[92m  - Added entry 0.810[0m
 [93m- Instance 8 at dataset 2 (21.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.641774990002[0m
-  - accuracy = [92m0.85175[0m
-[92m  - Added entry 0.642[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596547210fc54746d10d67e4][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.812942684723[0m
+  - accuracy = [92m0.75375[0m
+[92m  - Added entry 0.813[0m
 [93m- Instance 9 at dataset 2 (22.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.650145683644[0m
-  - accuracy = [92m0.8525[0m
-[92m  - Added entry 0.650[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596547350fc54746d10d67e5][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.833009449761[0m
+  - accuracy = [92m0.77425[0m
+[92m  - Added entry 0.833[0m
 [93m- Instance 10 at dataset 2 (22.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.759749442829[0m
-  - accuracy = [92m0.878[0m
-[92m  - Added entry 0.760[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965475c0fc54746d10d67e6][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.843799707013[0m
+  - accuracy = [92m0.796[0m
+[92m  - Added entry 0.844[0m
 [93m- Instance 11 at dataset 2 (23.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.818089795772[0m
-  - accuracy = [92m0.864[0m
-[92m  - Added entry 0.818[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596547f50fc54746d10d67e7][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.855785944627[0m
+  - accuracy = [92m0.8115[0m
+[92m  - Added entry 0.856[0m
 [93m- Instance 12 at dataset 2 (23.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.744179408271[0m
-  - accuracy = [92m0.83325[0m
-[92m  - Added entry 0.744[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596548040fc54746d10d67e8][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.818767291349[0m
+  - accuracy = [92m0.73225[0m
+[92m  - Added entry 0.819[0m
 [93m- Instance 13 at dataset 2 (24.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.83900510375[0m
-  - accuracy = [92m0.84825[0m
-[92m  - Added entry 0.839[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965481f0fc54746d10d67e9][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.832860671408[0m
+  - accuracy = [92m0.778[0m
+[92m  - Added entry 0.833[0m
 [93m- Instance 14 at dataset 2 (24.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.838658563723[0m
-  - accuracy = [92m0.85575[0m
-[92m  - Added entry 0.839[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596548680fc54746d10d67ea][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.85955759638[0m
+  - accuracy = [92m0.82375[0m
+[92m  - Added entry 0.860[0m
 [93m- Instance 15 at dataset 2 (25.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.879644768248[0m
-  - accuracy = [92m0.867[0m
-[92m  - Added entry 0.880[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965495d0fc54746d10d67eb][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.838689044022[0m
+  - accuracy = [92m0.80325[0m
+[92m  - Added entry 0.839[0m
 [93m- Instance 16 at dataset 2 (25.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.764464636915[0m
-  - accuracy = [92m0.83725[0m
-[92m  - Added entry 0.764[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596549700fc54746d10d67ec][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.733593194592[0m
+  - accuracy = [92m0.562[0m
+[92m  - Added entry 0.734[0m
 [93m- Instance 17 at dataset 2 (25.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.816076911334[0m
-  - accuracy = [92m0.838[0m
-[92m  - Added entry 0.816[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596549950fc54746d10d67ed][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.848981742966[0m
+  - accuracy = [92m0.82375[0m
+[92m  - Added entry 0.849[0m
 [93m- Instance 18 at dataset 2 (26.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.838099150785[0m
-  - accuracy = [92m0.84375[0m
-[92m  - Added entry 0.838[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654a040fc54746d10d67ee][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.839969878389[0m
+  - accuracy = [92m0.7795[0m
+[92m  - Added entry 0.840[0m
 [93m- Instance 19 at dataset 2 (26.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.839792681541[0m
-  - accuracy = [92m0.8465[0m
-[92m  - Added entry 0.840[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654b9d0fc54746d10d67ef][0m
+[92m  - Results get from database [ece_ds_syntetic20f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.851137331655[0m
+  - accuracy = [92m0.7975[0m
+[92m  - Added entry 0.851[0m
 [92m- Processing on syntetic20f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 1 values are marked as best, with mean 0.880[0m
+[92m  - 4 values are marked as best, with mean 0.860[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic20f.tex[0m
 [93m- Making a csv file[0m
@@ -701,227 +881,287 @@
 [92m- Dataset loaded (syntetic50f dataset (1000 samples, 50 features, 2 classes))[0m
 [93m- Instance 0 at dataset 3 (27.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654baa0fc54746d10d67f0][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 3 (27.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654bb80fc54746d10d67f1][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 3 (28.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.511729556096[0m
-  - accuracy = [92m0.8945[0m
-[92m  - Added entry 0.512[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654bc90fc54746d10d67f2][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.569838283865[0m
+  - accuracy = [92m0.89875[0m
+[92m  - Added entry 0.570[0m
 [93m- Instance 3 at dataset 3 (28.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.503152557378[0m
-  - accuracy = [92m0.89475[0m
-[92m  - Added entry 0.503[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654bee0fc54746d10d67f3][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.826272366291[0m
+  - accuracy = [92m0.78475[0m
+[92m  - Added entry 0.826[0m
 [93m- Instance 4 at dataset 3 (29.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654bfc0fc54746d10d67f4][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.105[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 3 (29.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.530447457996[0m
-  - accuracy = [92m0.88375[0m
-[92m  - Added entry 0.530[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654c0b0fc54746d10d67f5][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.502822445887[0m
+  - accuracy = [92m0.8905[0m
+[92m  - Added entry 0.503[0m
 [93m- Instance 6 at dataset 3 (30.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.614555407872[0m
-  - accuracy = [92m0.89475[0m
-[92m  - Added entry 0.615[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654c290fc54746d10d67f6][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.859071230966[0m
+  - accuracy = [92m0.808[0m
+[92m  - Added entry 0.859[0m
 [93m- Instance 7 at dataset 3 (30.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.687012539788[0m
-  - accuracy = [92m0.917[0m
-[92m  - Added entry 0.687[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654c7b0fc54746d10d67f7][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.841119915226[0m
+  - accuracy = [92m0.76575[0m
+[92m  - Added entry 0.841[0m
 [93m- Instance 8 at dataset 3 (30.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.583070642939[0m
-  - accuracy = [92m0.88975[0m
-[92m  - Added entry 0.583[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654c8a0fc54746d10d67f8][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.605804822899[0m
+  - accuracy = [92m0.899[0m
+[92m  - Added entry 0.606[0m
 [93m- Instance 9 at dataset 3 (31.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.507577236814[0m
-  - accuracy = [92m0.796[0m
-[92m  - Added entry 0.508[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654c9d0fc54746d10d67f9][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.851030480729[0m
+  - accuracy = [92m0.906[0m
+[92m  - Added entry 0.851[0m
 [93m- Instance 10 at dataset 3 (31.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.771157727301[0m
-  - accuracy = [92m0.90525[0m
-[92m  - Added entry 0.771[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654cc60fc54746d10d67fa][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.79399109006[0m
+  - accuracy = [92m0.79[0m
+[92m  - Added entry 0.794[0m
 [93m- Instance 11 at dataset 3 (32.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.698543047798[0m
-  - accuracy = [92m0.84175[0m
-[92m  - Added entry 0.699[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654d610fc54746d10d67fb][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.906490924995[0m
+  - accuracy = [92m0.8755[0m
+[92m  - Added entry 0.906[0m
 [93m- Instance 12 at dataset 3 (32.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.660506954379[0m
-  - accuracy = [92m0.887[0m
-[92m  - Added entry 0.661[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654d6f0fc54746d10d67fc][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.711111567211[0m
+  - accuracy = [92m0.90525[0m
+[92m  - Added entry 0.711[0m
 [93m- Instance 13 at dataset 3 (33.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.801929363874[0m
-  - accuracy = [92m0.8785[0m
-[92m  - Added entry 0.802[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654d8b0fc54746d10d67fd][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.900919365416[0m
+  - accuracy = [92m0.8945[0m
+[92m  - Added entry 0.901[0m
 [93m- Instance 14 at dataset 3 (33.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.832856222868[0m
-  - accuracy = [92m0.8705[0m
-[92m  - Added entry 0.833[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654dd40fc54746d10d67fe][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.843488171846[0m
+  - accuracy = [92m0.8185[0m
+[92m  - Added entry 0.843[0m
 [93m- Instance 15 at dataset 3 (34.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.731919291099[0m
-  - accuracy = [92m0.849[0m
-[92m  - Added entry 0.732[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654ecc0fc54746d10d67ff][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.905233830169[0m
+  - accuracy = [92m0.8675[0m
+[92m  - Added entry 0.905[0m
 [93m- Instance 16 at dataset 3 (34.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.676683170281[0m
-  - accuracy = [92m0.86275[0m
-[92m  - Added entry 0.677[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654edf0fc54746d10d6800][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.858092391424[0m
+  - accuracy = [92m0.798[0m
+[92m  - Added entry 0.858[0m
 [93m- Instance 17 at dataset 3 (35.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.797682463603[0m
-  - accuracy = [92m0.851[0m
-[92m  - Added entry 0.798[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654f040fc54746d10d6801][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.785079821848[0m
+  - accuracy = [92m0.85475[0m
+[92m  - Added entry 0.785[0m
 [93m- Instance 18 at dataset 3 (35.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.764419709436[0m
-  - accuracy = [92m0.82375[0m
-[92m  - Added entry 0.764[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59654f730fc54746d10d6802][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.890429953307[0m
+  - accuracy = [92m0.8355[0m
+[92m  - Added entry 0.890[0m
 [93m- Instance 19 at dataset 3 (35.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.88726466455[0m
-  - accuracy = [92m0.89925[0m
-[92m  - Added entry 0.887[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965510e0fc54746d10d6803][0m
+[92m  - Results get from database [ece_ds_syntetic50f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.858177609096[0m
+  - accuracy = [92m0.791[0m
+[92m  - Added entry 0.858[0m
 [92m- Processing on syntetic50f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 1 values are marked as best, with mean 0.887[0m
+[92m  - 4 values are marked as best, with mean 0.906[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic50f.tex[0m
 [93m- Making a csv file[0m
@@ -929,227 +1169,287 @@
 [92m- Dataset loaded (syntetic100f dataset (1000 samples, 100 features, 2 classes))[0m
 [93m- Instance 0 at dataset 4 (36.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965511b0fc54746d10d6804][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 4 (36.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596551290fc54746d10d6805][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 4 (37.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.506581719554[0m
-  - accuracy = [92m0.896[0m
-[92m  - Added entry 0.507[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596551390fc54746d10d6806][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.515969585355[0m
+  - accuracy = [92m0.89625[0m
+[92m  - Added entry 0.516[0m
 [93m- Instance 3 at dataset 4 (37.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.499860335196[0m
-  - accuracy = [92m0.89575[0m
-[92m  - Added entry 0.500[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965515f0fc54746d10d6807][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.764013874411[0m
+  - accuracy = [92m0.78975[0m
+[92m  - Added entry 0.764[0m
 [93m- Instance 4 at dataset 4 (38.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965516d0fc54746d10d6808][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.104[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 4 (38.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.536689846938[0m
-  - accuracy = [92m0.8955[0m
-[92m  - Added entry 0.537[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965517c0fc54746d10d6809][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.536029684549[0m
+  - accuracy = [92m0.89775[0m
+[92m  - Added entry 0.536[0m
 [93m- Instance 6 at dataset 4 (39.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.62147655567[0m
-  - accuracy = [92m0.88675[0m
-[92m  - Added entry 0.621[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965519a0fc54746d10d680a][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.866946082173[0m
+  - accuracy = [92m0.83075[0m
+[92m  - Added entry 0.867[0m
 [93m- Instance 7 at dataset 4 (39.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.577033780849[0m
-  - accuracy = [92m0.8975[0m
-[92m  - Added entry 0.577[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596551ec0fc54746d10d680b][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.70952195739[0m
+  - accuracy = [92m0.543[0m
+[92m  - Added entry 0.710[0m
 [93m- Instance 8 at dataset 4 (40.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.560325097362[0m
-  - accuracy = [92m0.892[0m
-[92m  - Added entry 0.560[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596551fb0fc54746d10d680c][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.60725179782[0m
+  - accuracy = [92m0.90025[0m
+[92m  - Added entry 0.607[0m
 [93m- Instance 9 at dataset 4 (40.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.826618648521[0m
-  - accuracy = [92m0.897[0m
-[92m  - Added entry 0.827[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965520e0fc54746d10d680d][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.743560457348[0m
+  - accuracy = [92m0.894[0m
+[92m  - Added entry 0.744[0m
 [93m- Instance 10 at dataset 4 (40.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.620042626141[0m
-  - accuracy = [92m0.85125[0m
-[92m  - Added entry 0.620[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596552370fc54746d10d680e][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.863774761969[0m
+  - accuracy = [92m0.84325[0m
+[92m  - Added entry 0.864[0m
 [93m- Instance 11 at dataset 4 (41.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.867748769499[0m
-  - accuracy = [92m0.90275[0m
-[92m  - Added entry 0.868[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596552d10fc54746d10d680f][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.881143868074[0m
+  - accuracy = [92m0.85525[0m
+[92m  - Added entry 0.881[0m
 [93m- Instance 12 at dataset 4 (41.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.521316623344[0m
-  - accuracy = [92m0.887[0m
-[92m  - Added entry 0.521[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596552e00fc54746d10d6810][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.524723581259[0m
+  - accuracy = [92m0.8945[0m
+[92m  - Added entry 0.525[0m
 [93m- Instance 13 at dataset 4 (42.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.842899312657[0m
-  - accuracy = [92m0.86875[0m
-[92m  - Added entry 0.843[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596552fb0fc54746d10d6811][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.703853656276[0m
+  - accuracy = [92m0.8345[0m
+[92m  - Added entry 0.704[0m
 [93m- Instance 14 at dataset 4 (42.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.592911369454[0m
-  - accuracy = [92m0.8215[0m
-[92m  - Added entry 0.593[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596553440fc54746d10d6812][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.880922437307[0m
+  - accuracy = [92m0.89025[0m
+[92m  - Added entry 0.881[0m
 [93m- Instance 15 at dataset 4 (43.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.512899168753[0m
-  - accuracy = [92m0.73475[0m
-[92m  - Added entry 0.513[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965543c0fc54746d10d6813][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.8673508141[0m
+  - accuracy = [92m0.8615[0m
+[92m  - Added entry 0.867[0m
 [93m- Instance 16 at dataset 4 (43.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.610557510021[0m
-  - accuracy = [92m0.906[0m
-[92m  - Added entry 0.611[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965544f0fc54746d10d6814][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.858448864669[0m
+  - accuracy = [92m0.81725[0m
+[92m  - Added entry 0.858[0m
 [93m- Instance 17 at dataset 4 (44.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.738729808107[0m
-  - accuracy = [92m0.83175[0m
-[92m  - Added entry 0.739[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596554740fc54746d10d6815][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.878454471615[0m
+  - accuracy = [92m0.877[0m
+[92m  - Added entry 0.878[0m
 [93m- Instance 18 at dataset 4 (44.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.872597803323[0m
-  - accuracy = [92m0.94[0m
-[92m  - Added entry 0.873[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596554e30fc54746d10d6816][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.907451582502[0m
+  - accuracy = [92m0.8985[0m
+[92m  - Added entry 0.907[0m
 [93m- Instance 19 at dataset 4 (45.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.889591712008[0m
-  - accuracy = [92m0.925[0m
-[92m  - Added entry 0.890[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965567e0fc54746d10d6817][0m
+[92m  - Results get from database [ece_ds_syntetic100f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.874274709087[0m
+  - accuracy = [92m0.857[0m
+[92m  - Added entry 0.874[0m
 [92m- Processing on syntetic100f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 3 values are marked as best, with mean 0.890[0m
+[92m  - 1 values are marked as best, with mean 0.907[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic100f.tex[0m
 [93m- Making a csv file[0m
@@ -1157,227 +1457,287 @@
 [92m- Dataset loaded (syntetic200f dataset (1000 samples, 200 features, 2 classes))[0m
 [93m- Instance 0 at dataset 5 (45.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965568c0fc54746d10d6818][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 5 (45.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965569a0fc54746d10d6819][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 5 (46.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.501140976931[0m
-  - accuracy = [92m0.89575[0m
-[92m  - Added entry 0.501[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596556a90fc54746d10d681a][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.505482587445[0m
+  - accuracy = [92m0.8975[0m
+[92m  - Added entry 0.505[0m
 [93m- Instance 3 at dataset 5 (46.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.898[0m
-[92m  - Added entry 0.500[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596556cc0fc54746d10d681b][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.674450494363[0m
+  - accuracy = [92m0.7005[0m
+[92m  - Added entry 0.674[0m
 [93m- Instance 4 at dataset 5 (47.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596556da0fc54746d10d681c][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.898[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 5 (47.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.500012283895[0m
-  - accuracy = [92m0.89[0m
-[92m  - Added entry 0.500[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596556e80fc54746d10d681d][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.528324439245[0m
+  - accuracy = [92m0.8945[0m
+[92m  - Added entry 0.528[0m
 [93m- Instance 6 at dataset 5 (48.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.510330426521[0m
-  - accuracy = [92m0.8935[0m
-[92m  - Added entry 0.510[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596557060fc54746d10d681e][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.58595843768[0m
+  - accuracy = [92m0.3085[0m
+[92m  - Added entry 0.586[0m
 [93m- Instance 7 at dataset 5 (48.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.500515474153[0m
-  - accuracy = [92m0.887[0m
-[92m  - Added entry 0.501[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596557550fc54746d10d681f][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.532200465103[0m
+  - accuracy = [92m0.21725[0m
+[92m  - Added entry 0.532[0m
 [93m- Instance 8 at dataset 5 (49.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.533177480419[0m
-  - accuracy = [92m0.89075[0m
-[92m  - Added entry 0.533[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596557640fc54746d10d6820][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.666273767843[0m
+  - accuracy = [92m0.561[0m
+[92m  - Added entry 0.666[0m
 [93m- Instance 9 at dataset 5 (49.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.528861092136[0m
-  - accuracy = [92m0.86575[0m
-[92m  - Added entry 0.529[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596557770fc54746d10d6821][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.585358162121[0m
+  - accuracy = [92m0.37625[0m
+[92m  - Added entry 0.585[0m
 [93m- Instance 10 at dataset 5 (50.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.503755897357[0m
-  - accuracy = [92m0.8355[0m
-[92m  - Added entry 0.504[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965579f0fc54746d10d6822][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.495783371909[0m
+  - accuracy = [92m0.288[0m
+[92m  - Added entry 0.496[0m
 [93m- Instance 11 at dataset 5 (50.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.661940319202[0m
-  - accuracy = [92m0.90075[0m
-[92m  - Added entry 0.662[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596558380fc54746d10d6823][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.859169250505[0m
+  - accuracy = [92m0.85[0m
+[92m  - Added entry 0.859[0m
 [93m- Instance 12 at dataset 5 (50.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.505792196238[0m
-  - accuracy = [92m0.86875[0m
-[92m  - Added entry 0.506[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596558470fc54746d10d6824][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.817428828201[0m
+  - accuracy = [92m0.7435[0m
+[92m  - Added entry 0.817[0m
 [93m- Instance 13 at dataset 5 (51.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.661193453782[0m
-  - accuracy = [92m0.89775[0m
-[92m  - Added entry 0.661[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596558620fc54746d10d6825][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.583630306348[0m
+  - accuracy = [92m0.258[0m
+[92m  - Added entry 0.584[0m
 [93m- Instance 14 at dataset 5 (51.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.693855314204[0m
-  - accuracy = [92m0.8975[0m
-[92m  - Added entry 0.694[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596558ab0fc54746d10d6826][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.86845904446[0m
+  - accuracy = [92m0.877[0m
+[92m  - Added entry 0.868[0m
 [93m- Instance 15 at dataset 5 (52.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.494331412601[0m
-  - accuracy = [92m0.76125[0m
-[92m  - Added entry 0.494[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596559a00fc54746d10d6827][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.500859725055[0m
+  - accuracy = [92m0.496[0m
+[92m  - Added entry 0.501[0m
 [93m- Instance 16 at dataset 5 (52.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.532237552094[0m
-  - accuracy = [92m0.87725[0m
-[92m  - Added entry 0.532[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596559b30fc54746d10d6828][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.5[0m
+  - accuracy = [92m0.102[0m
+[92m  - Added entry 0.500[0m
 [93m- Instance 17 at dataset 5 (53.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.635358875421[0m
-  - accuracy = [92m0.8225[0m
-[92m  - Added entry 0.635[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596559d80fc54746d10d6829][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.502681241012[0m
+  - accuracy = [92m0.1225[0m
+[92m  - Added entry 0.503[0m
 [93m- Instance 18 at dataset 5 (53.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.60217558298[0m
-  - accuracy = [92m0.82[0m
-[92m  - Added entry 0.602[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655a470fc54746d10d682a][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.701177663638[0m
+  - accuracy = [92m0.54525[0m
+[92m  - Added entry 0.701[0m
 [93m- Instance 19 at dataset 5 (54.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.815729129801[0m
-  - accuracy = [92m0.90975[0m
-[92m  - Added entry 0.816[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655be00fc54746d10d682b][0m
+[92m  - Results get from database [ece_ds_syntetic200f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.834075998141[0m
+  - accuracy = [92m0.8585[0m
+[92m  - Added entry 0.834[0m
 [92m- Processing on syntetic200f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 1 values are marked as best, with mean 0.816[0m
+[92m  - 3 values are marked as best, with mean 0.868[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic200f.tex[0m
 [93m- Making a csv file[0m
@@ -1385,227 +1745,287 @@
 [92m- Dataset loaded (syntetic500f dataset (1000 samples, 500 features, 2 classes))[0m
 [93m- Instance 0 at dataset 6 (54.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655bef0fc54746d10d682c][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.101[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 6 (55.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655bfd0fc54746d10d682d][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.101[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 6 (55.45%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.500279312462[0m
-  - accuracy = [92m0.8975[0m
-[92m  - Added entry 0.500[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655c0d0fc54746d10d682e][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.500821916727[0m
+  - accuracy = [92m0.8965[0m
+[92m  - Added entry 0.501[0m
 [93m- Instance 3 at dataset 6 (55.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.5[0m
-  - accuracy = [92m0.899[0m
-[92m  - Added entry 0.500[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655c340fc54746d10d682f][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.577786516869[0m
+  - accuracy = [92m0.60575[0m
+[92m  - Added entry 0.578[0m
 [93m- Instance 4 at dataset 6 (56.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655c410fc54746d10d6830][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.101[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 6 (56.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.505481284934[0m
-  - accuracy = [92m0.8965[0m
-[92m  - Added entry 0.505[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655c500fc54746d10d6831][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.503228775863[0m
+  - accuracy = [92m0.89675[0m
+[92m  - Added entry 0.503[0m
 [93m- Instance 6 at dataset 6 (57.27%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.506166243656[0m
-  - accuracy = [92m0.896[0m
-[92m  - Added entry 0.506[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655c6f0fc54746d10d6832][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.650694439094[0m
+  - accuracy = [92m0.48575[0m
+[92m  - Added entry 0.651[0m
 [93m- Instance 7 at dataset 6 (57.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.502891379889[0m
-  - accuracy = [92m0.89175[0m
-[92m  - Added entry 0.503[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655cc20fc54746d10d6833][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.490733814427[0m
+  - accuracy = [92m0.134[0m
+[92m  - Added entry 0.491[0m
 [93m- Instance 8 at dataset 6 (58.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.498413022401[0m
-  - accuracy = [92m0.88575[0m
-[92m  - Added entry 0.498[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655cd10fc54746d10d6834][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.499338358522[0m
+  - accuracy = [92m0.89175[0m
+[92m  - Added entry 0.499[0m
 [93m- Instance 9 at dataset 6 (58.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.509595033796[0m
-  - accuracy = [92m0.852[0m
-[92m  - Added entry 0.510[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655ce50fc54746d10d6835][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.493112865825[0m
+  - accuracy = [92m0.699[0m
+[92m  - Added entry 0.493[0m
 [93m- Instance 10 at dataset 6 (59.09%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.500724099286[0m
-  - accuracy = [92m0.863[0m
-[92m  - Added entry 0.501[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655d0d0fc54746d10d6836][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.493107908938[0m
+  - accuracy = [92m0.32275[0m
+[92m  - Added entry 0.493[0m
 [93m- Instance 11 at dataset 6 (59.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.489302914783[0m
-  - accuracy = [92m0.81275[0m
-[92m  - Added entry 0.489[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655da90fc54746d10d6837][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.517584928681[0m
+  - accuracy = [92m0.303[0m
+[92m  - Added entry 0.518[0m
 [93m- Instance 12 at dataset 6 (60.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.498914581664[0m
-  - accuracy = [92m0.881[0m
-[92m  - Added entry 0.499[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655db70fc54746d10d6838][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.511034021833[0m
+  - accuracy = [92m0.885[0m
+[92m  - Added entry 0.511[0m
 [93m- Instance 13 at dataset 6 (60.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.50247911656[0m
-  - accuracy = [92m0.80925[0m
-[92m  - Added entry 0.502[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655dd30fc54746d10d6839][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.622254622034[0m
+  - accuracy = [92m0.515[0m
+[92m  - Added entry 0.622[0m
 [93m- Instance 14 at dataset 6 (60.91%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.622370053948[0m
-  - accuracy = [92m0.86225[0m
-[92m  - Added entry 0.622[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655e1c0fc54746d10d683a][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.502164139203[0m
+  - accuracy = [92m0.42675[0m
+[92m  - Added entry 0.502[0m
 [93m- Instance 15 at dataset 6 (61.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.494038609828[0m
-  - accuracy = [92m0.79875[0m
-[92m  - Added entry 0.494[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655f150fc54746d10d683b][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.506713108926[0m
+  - accuracy = [92m0.49975[0m
+[92m  - Added entry 0.507[0m
 [93m- Instance 16 at dataset 6 (61.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.501001593549[0m
-  - accuracy = [92m0.8865[0m
-[92m  - Added entry 0.501[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655f280fc54746d10d683c][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.502539331757[0m
+  - accuracy = [92m0.1285[0m
+[92m  - Added entry 0.503[0m
 [93m- Instance 17 at dataset 6 (62.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.504891886762[0m
-  - accuracy = [92m0.77125[0m
-[92m  - Added entry 0.505[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655f4d0fc54746d10d683d][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.642956640672[0m
+  - accuracy = [92m0.569[0m
+[92m  - Added entry 0.643[0m
 [93m- Instance 18 at dataset 6 (62.73%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.679094925884[0m
-  - accuracy = [92m0.847[0m
-[92m  - Added entry 0.679[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [59655fbc0fc54746d10d683e][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.534301069527[0m
+  - accuracy = [92m0.4445[0m
+[92m  - Added entry 0.534[0m
 [93m- Instance 19 at dataset 6 (63.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.515577262413[0m
-  - accuracy = [92m0.7765[0m
-[92m  - Added entry 0.516[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561570fc54746d10d683f][0m
+[92m  - Results get from database [ece_ds_syntetic500f_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.658744386428[0m
+  - accuracy = [92m0.577[0m
+[92m  - Added entry 0.659[0m
 [92m- Processing on syntetic500f dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 1 values are marked as best, with mean 0.679[0m
+[92m  - 4 values are marked as best, with mean 0.659[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_syntetic500f.tex[0m
 [93m- Making a csv file[0m
@@ -1613,227 +2033,287 @@
 [92m- Dataset loaded (balance dataset (625 samples, 4 features, 3 classes))[0m
 [93m- Instance 0 at dataset 7 (63.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561580fc54746d10d6840][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.3856[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 7 (64.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561590fc54746d10d6841][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.3856[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 7 (64.55%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.653296880189[0m
-  - accuracy = [92m0.744[0m
-[92m  - Added entry 0.653[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965615a0fc54746d10d6842][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.663148626323[0m
+  - accuracy = [92m0.76[0m
+[92m  - Added entry 0.663[0m
 [93m- Instance 3 at dataset 7 (65.00%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.698597666088[0m
-  - accuracy = [92m0.813866666667[0m
-[92m  - Added entry 0.699[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965615d0fc54746d10d6843][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.696365064055[0m
+  - accuracy = [92m0.8136[0m
+[92m  - Added entry 0.696[0m
 [93m- Instance 4 at dataset 7 (65.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965615e0fc54746d10d6844][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
   - accuracy = [92m0.3856[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 7 (65.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.65329733575[0m
-  - accuracy = [92m0.744[0m
-[92m  - Added entry 0.653[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965615f0fc54746d10d6845][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.663148626323[0m
+  - accuracy = [92m0.76[0m
+[92m  - Added entry 0.663[0m
 [93m- Instance 6 at dataset 7 (66.36%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.698597666088[0m
-  - accuracy = [92m0.813866666667[0m
-[92m  - Added entry 0.699[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561610fc54746d10d6846][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.690571740941[0m
+  - accuracy = [92m0.806666666667[0m
+[92m  - Added entry 0.691[0m
 [93m- Instance 7 at dataset 7 (66.82%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.700859184104[0m
-  - accuracy = [92m0.8144[0m
-[92m  - Added entry 0.701[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561670fc54746d10d6847][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.709163801927[0m
+  - accuracy = [92m0.833333333333[0m
+[92m  - Added entry 0.709[0m
 [93m- Instance 8 at dataset 7 (67.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.689775352292[0m
-  - accuracy = [92m0.799733333333[0m
-[92m  - Added entry 0.690[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561680fc54746d10d6848][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.707014061128[0m
+  - accuracy = [92m0.822666666667[0m
+[92m  - Added entry 0.707[0m
 [93m- Instance 9 at dataset 7 (67.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.705247771763[0m
-  - accuracy = [92m0.819733333333[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965616a0fc54746d10d6849][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.705242242105[0m
+  - accuracy = [92m0.803733333333[0m
 [92m  - Added entry 0.705[0m
 [93m- Instance 10 at dataset 7 (68.18%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.704363367481[0m
-  - accuracy = [92m0.818933333333[0m
-[92m  - Added entry 0.704[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965616c0fc54746d10d684a][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.697738398417[0m
+  - accuracy = [92m0.8024[0m
+[92m  - Added entry 0.698[0m
 [93m- Instance 11 at dataset 7 (68.64%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.719872391125[0m
-  - accuracy = [92m0.834133333333[0m
-[92m  - Added entry 0.720[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561760fc54746d10d684b][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.705261150819[0m
+  - accuracy = [92m0.806933333333[0m
+[92m  - Added entry 0.705[0m
 [93m- Instance 12 at dataset 7 (69.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.689775807852[0m
-  - accuracy = [92m0.799733333333[0m
-[92m  - Added entry 0.690[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561770fc54746d10d684c][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.707014061128[0m
+  - accuracy = [92m0.822666666667[0m
+[92m  - Added entry 0.707[0m
 [93m- Instance 13 at dataset 7 (69.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.730350084054[0m
-  - accuracy = [92m0.837333333333[0m
-[92m  - Added entry 0.730[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561790fc54746d10d684d][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.724493469167[0m
+  - accuracy = [92m0.8024[0m
+[92m  - Added entry 0.724[0m
 [93m- Instance 14 at dataset 7 (70.00%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.734925344821[0m
-  - accuracy = [92m0.841333333333[0m
-[92m  - Added entry 0.735[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965617d0fc54746d10d684e][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.727198151587[0m
+  - accuracy = [92m0.8016[0m
+[92m  - Added entry 0.727[0m
 [93m- Instance 15 at dataset 7 (70.45%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.735723199311[0m
-  - accuracy = [92m0.842933333333[0m
-[92m  - Added entry 0.736[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965618b0fc54746d10d684f][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.725198339613[0m
+  - accuracy = [92m0.798666666667[0m
+[92m  - Added entry 0.725[0m
 [93m- Instance 16 at dataset 7 (70.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.72438040545[0m
-  - accuracy = [92m0.803466666667[0m
-[92m  - Added entry 0.724[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965618d0fc54746d10d6850][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.738182698522[0m
+  - accuracy = [92m0.790933333333[0m
+[92m  - Added entry 0.738[0m
 [93m- Instance 17 at dataset 7 (71.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.731868909097[0m
-  - accuracy = [92m0.8152[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965618f0fc54746d10d6851][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.732322275517[0m
+  - accuracy = [92m0.777333333333[0m
 [92m  - Added entry 0.732[0m
 [93m- Instance 18 at dataset 7 (71.82%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.729571785872[0m
-  - accuracy = [92m0.813333333333[0m
-[92m  - Added entry 0.730[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561950fc54746d10d6852][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.730925521172[0m
+  - accuracy = [92m0.7704[0m
+[92m  - Added entry 0.731[0m
 [93m- Instance 19 at dataset 7 (72.27%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_balance_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.727857619424[0m
-  - accuracy = [92m0.812533333333[0m
-[92m  - Added entry 0.728[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561ad0fc54746d10d6853][0m
+[92m  - Results get from database [ece_ds_balance_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.730066996466[0m
+  - accuracy = [92m0.768533333333[0m
+[92m  - Added entry 0.730[0m
 [92m- Processing on balance dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 8 values are marked as best, with mean 0.736[0m
+[92m  - 12 values are marked as best, with mean 0.738[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_balance.tex[0m
 [93m- Making a csv file[0m
@@ -1841,227 +2321,287 @@
 [92m- Dataset loaded (ionosphere dataset (351 samples, 34 features, 2 classes))[0m
 [93m- Instance 0 at dataset 8 (72.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561b20fc54746d10d6854][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 8 (73.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561b70fc54746d10d6855][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 8 (73.64%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561bd0fc54746d10d6856][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 3 at dataset 8 (74.09%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.862696858747[0m
-  - accuracy = [92m0.885332994408[0m
-[92m  - Added entry 0.863[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561ce0fc54746d10d6857][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.830357292478[0m
+  - accuracy = [92m0.806992882562[0m
+[92m  - Added entry 0.830[0m
 [93m- Instance 4 at dataset 8 (74.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561d30fc54746d10d6858][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 8 (75.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.762552975996[0m
-  - accuracy = [92m0.81197763091[0m
-[92m  - Added entry 0.763[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561d90fc54746d10d6859][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.5[0m
+  - accuracy = [92m0.641029486528[0m
+[92m  - Added entry 0.500[0m
 [93m- Instance 6 at dataset 8 (75.45%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.842343535542[0m
-  - accuracy = [92m0.847590238943[0m
-[92m  - Added entry 0.842[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596561e50fc54746d10d685a][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.813356416707[0m
+  - accuracy = [92m0.784173868836[0m
+[92m  - Added entry 0.813[0m
 [93m- Instance 7 at dataset 8 (75.91%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.859059127904[0m
-  - accuracy = [92m0.868235892222[0m
-[92m  - Added entry 0.859[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562060fc54746d10d685b][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.833909768227[0m
+  - accuracy = [92m0.809072191154[0m
+[92m  - Added entry 0.834[0m
 [93m- Instance 8 at dataset 8 (76.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965620b0fc54746d10d685c][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 9 at dataset 8 (76.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.793982493315[0m
-  - accuracy = [92m0.80558464667[0m
-[92m  - Added entry 0.794[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562120fc54746d10d685d][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.788666852839[0m
+  - accuracy = [92m0.765653279105[0m
+[92m  - Added entry 0.789[0m
 [93m- Instance 10 at dataset 8 (77.27%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.863358905249[0m
-  - accuracy = [92m0.871794611083[0m
-[92m  - Added entry 0.863[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562220fc54746d10d685e][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.827826980496[0m
+  - accuracy = [92m0.803360447382[0m
+[92m  - Added entry 0.828[0m
 [93m- Instance 11 at dataset 8 (77.73%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.87849926109[0m
-  - accuracy = [92m0.878202846975[0m
-[92m  - Added entry 0.878[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965625a0fc54746d10d685f][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.784170609977[0m
+  - accuracy = [92m0.742849517031[0m
+[92m  - Added entry 0.784[0m
 [93m- Instance 12 at dataset 8 (78.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965625f0fc54746d10d6860][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.64103202847[0m
+  - accuracy = [92m0.641029486528[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 13 at dataset 8 (78.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.824001983784[0m
-  - accuracy = [92m0.824799186579[0m
-[92m  - Added entry 0.824[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562690fc54746d10d6861][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.776315810919[0m
+  - accuracy = [92m0.745699034062[0m
+[92m  - Added entry 0.776[0m
 [93m- Instance 14 at dataset 8 (79.09%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.797325983344[0m
-  - accuracy = [92m0.78206405694[0m
-[92m  - Added entry 0.797[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562830fc54746d10d6862][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.784343775845[0m
+  - accuracy = [92m0.744972038638[0m
+[92m  - Added entry 0.784[0m
 [93m- Instance 15 at dataset 8 (79.55%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.840026077977[0m
-  - accuracy = [92m0.829753431622[0m
-[92m  - Added entry 0.840[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562db0fc54746d10d6863][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.779164954932[0m
+  - accuracy = [92m0.737125063549[0m
+[92m  - Added entry 0.779[0m
 [93m- Instance 16 at dataset 8 (80.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.709822913947[0m
-  - accuracy = [92m0.684519572954[0m
-[92m  - Added entry 0.710[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562e10fc54746d10d6864][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.749981128716[0m
+  - accuracy = [92m0.764257752923[0m
+[92m  - Added entry 0.750[0m
 [93m- Instance 17 at dataset 8 (80.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.739733181138[0m
-  - accuracy = [92m0.700899847483[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596562ee0fc54746d10d6865][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.73974237125[0m
+  - accuracy = [92m0.780645653279[0m
 [92m  - Added entry 0.740[0m
 [93m- Instance 18 at dataset 8 (80.91%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.757046668321[0m
-  - accuracy = [92m0.716606507372[0m
-[92m  - Added entry 0.757[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563160fc54746d10d6866][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.72918030999[0m
+  - accuracy = [92m0.786342145399[0m
+[92m  - Added entry 0.729[0m
 [93m- Instance 19 at dataset 8 (81.36%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.751691259791[0m
-  - accuracy = [92m0.717999491612[0m
-[92m  - Added entry 0.752[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563a40fc54746d10d6867][0m
+[92m  - Results get from database [ece_ds_ionosphere_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.807453722191[0m
+  - accuracy = [92m0.845467717336[0m
+[92m  - Added entry 0.807[0m
 [92m- Processing on ionosphere dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 3 values are marked as best, with mean 0.878[0m
+[92m  - 5 values are marked as best, with mean 0.834[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_ionosphere.tex[0m
 [93m- Making a csv file[0m
@@ -2069,227 +2609,287 @@
 [92m- Dataset loaded (wisconsin dataset (699 samples, 9 features, 2 classes))[0m
 [93m- Instance 0 at dataset 9 (81.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563aa0fc54746d10d6868][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
+  - accuracy = [92m0.656648990544[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 9 (82.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563b00fc54746d10d6869][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
+  - accuracy = [92m0.656648990544[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 9 (82.73%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.92747865206[0m
-  - accuracy = [92m0.929901610018[0m
-[92m  - Added entry 0.927[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563b70fc54746d10d686a][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.941883510579[0m
+  - accuracy = [92m0.944206491183[0m
+[92m  - Added entry 0.942[0m
 [93m- Instance 3 at dataset 9 (83.18%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.957470027214[0m
-  - accuracy = [92m0.95314975722[0m
-[92m  - Added entry 0.957[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563c70fc54746d10d686b][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.964533400977[0m
+  - accuracy = [92m0.962086634296[0m
+[92m  - Added entry 0.965[0m
 [93m- Instance 4 at dataset 9 (83.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563cd0fc54746d10d686c][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.656650268336[0m
+  - accuracy = [92m0.656648990544[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 9 (84.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.955126013627[0m
-  - accuracy = [92m0.95207641196[0m
-[92m  - Added entry 0.955[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563d40fc54746d10d686d][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.956608086233[0m
+  - accuracy = [92m0.957077689752[0m
+[92m  - Added entry 0.957[0m
 [93m- Instance 6 at dataset 9 (84.55%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.965364756941[0m
-  - accuracy = [92m0.959943777153[0m
-[92m  - Added entry 0.965[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596563e00fc54746d10d686e][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.96348173927[0m
+  - accuracy = [92m0.962799642218[0m
+[92m  - Added entry 0.963[0m
 [93m- Instance 7 at dataset 9 (85.00%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.963533034293[0m
-  - accuracy = [92m0.95887107079[0m
-[92m  - Added entry 0.964[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564020fc54746d10d686f][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.962831799341[0m
+  - accuracy = [92m0.962085356504[0m
+[92m  - Added entry 0.963[0m
 [93m- Instance 8 at dataset 9 (85.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.958891730711[0m
-  - accuracy = [92m0.955293892154[0m
-[92m  - Added entry 0.959[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564080fc54746d10d6870][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.960592884268[0m
+  - accuracy = [92m0.957791975466[0m
+[92m  - Added entry 0.961[0m
 [93m- Instance 9 at dataset 9 (85.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.967539682676[0m
-  - accuracy = [92m0.962804753386[0m
-[92m  - Added entry 0.968[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564100fc54746d10d6871][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.950643324521[0m
+  - accuracy = [92m0.956004344493[0m
+[92m  - Added entry 0.951[0m
 [93m- Instance 10 at dataset 9 (86.36%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.968877180289[0m
-  - accuracy = [92m0.964234602607[0m
-[92m  - Added entry 0.969[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564200fc54746d10d6872][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.956464883145[0m
+  - accuracy = [92m0.959224380271[0m
+[92m  - Added entry 0.956[0m
 [93m- Instance 11 at dataset 9 (86.82%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.9691171141[0m
-  - accuracy = [92m0.964234602607[0m
-[92m  - Added entry 0.969[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965645b0fc54746d10d6873][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.951900147179[0m
+  - accuracy = [92m0.956720546895[0m
+[92m  - Added entry 0.952[0m
 [93m- Instance 12 at dataset 9 (87.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.957571789345[0m
-  - accuracy = [92m0.954578967544[0m
-[92m  - Added entry 0.958[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564610fc54746d10d6874][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.960592884268[0m
+  - accuracy = [92m0.957791975466[0m
+[92m  - Added entry 0.961[0m
 [93m- Instance 13 at dataset 9 (87.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.967166922979[0m
-  - accuracy = [92m0.964594301048[0m
-[92m  - Added entry 0.967[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965646c0fc54746d10d6875][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.938543029195[0m
+  - accuracy = [92m0.948850626118[0m
+[92m  - Added entry 0.939[0m
 [93m- Instance 14 at dataset 9 (88.18%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.968008805089[0m
-  - accuracy = [92m0.965666368515[0m
-[92m  - Added entry 0.968[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564870fc54746d10d6876][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.937948990838[0m
+  - accuracy = [92m0.948135701508[0m
+[92m  - Added entry 0.938[0m
 [93m- Instance 15 at dataset 9 (88.64%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.969606824222[0m
-  - accuracy = [92m0.965664451827[0m
-[92m  - Added entry 0.970[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564df0fc54746d10d6877][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.934961308931[0m
+  - accuracy = [92m0.946346792742[0m
+[92m  - Added entry 0.935[0m
 [93m- Instance 16 at dataset 9 (89.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.966508701855[0m
-  - accuracy = [92m0.964235241503[0m
-[92m  - Added entry 0.967[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564e70fc54746d10d6878][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.914502035456[0m
+  - accuracy = [92m0.933831459238[0m
+[92m  - Added entry 0.915[0m
 [93m- Instance 17 at dataset 9 (89.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.966088760978[0m
-  - accuracy = [92m0.965308586762[0m
-[92m  - Added entry 0.966[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596564f50fc54746d10d6879][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.918932479007[0m
+  - accuracy = [92m0.936691796576[0m
+[92m  - Added entry 0.919[0m
 [93m- Instance 18 at dataset 9 (90.00%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.969724687139[0m
-  - accuracy = [92m0.967812420138[0m
-[92m  - Added entry 0.970[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965651d0fc54746d10d687a][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.911714394765[0m
+  - accuracy = [92m0.93168476872[0m
+[92m  - Added entry 0.912[0m
 [93m- Instance 19 at dataset 9 (90.45%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.97020967672[0m
-  - accuracy = [92m0.967097495528[0m
-[92m  - Added entry 0.970[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565ad0fc54746d10d687b][0m
+[92m  - Results get from database [ece_ds_wisconsin_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.91274742379[0m
+  - accuracy = [92m0.93239969333[0m
+[92m  - Added entry 0.913[0m
 [92m- Processing on wisconsin dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 11 values are marked as best, with mean 0.970[0m
+[92m  - 7 values are marked as best, with mean 0.965[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_wisconsin.tex[0m
 [93m- Making a csv file[0m
@@ -2297,227 +2897,287 @@
 [92m- Dataset loaded (yeast3 dataset (1484 samples, 8 features, 2 classes))[0m
 [93m- Instance 0 at dataset 10 (90.91%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565b70fc54746d10d687c][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
+  - accuracy = [92m0.890162365015[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 1 at dataset 10 (91.36%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_100_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565c00fc54746d10d687d][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_100_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
+  - accuracy = [92m0.890162365015[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 2 at dataset 10 (91.82%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.708461068185[0m
-  - accuracy = [92m0.868261525675[0m
-[92m  - Added entry 0.708[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565cb0fc54746d10d687e][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.833713101435[0m
+  - accuracy = [92m0.85292889581[0m
+[92m  - Added entry 0.834[0m
 [93m- Instance 3 at dataset 10 (92.27%) [EXP experiment_1][0m
   - radius = [94m0.1[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_100_l_30_p_30_res_250b][0m
-  - bac = [92m0.817041678851[0m
-  - accuracy = [92m0.887970550776[0m
-[92m  - Added entry 0.817[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565df0fc54746d10d687f][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_100_l_60_p_30_res_250b][0m
+  - bac = [92m0.880456611232[0m
+  - accuracy = [92m0.838449646706[0m
+[92m  - Added entry 0.880[0m
 [93m- Instance 4 at dataset 10 (92.73%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_200_l_30_p_30_res_250b][0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565e80fc54746d10d6880][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_200_l_60_p_30_res_250b][0m
   - bac = [92m0.5[0m
-  - accuracy = [92m0.890161372217[0m
+  - accuracy = [92m0.890162365015[0m
 [92m  - Added entry 0.500[0m
 [93m- Instance 5 at dataset 10 (93.18%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.770559177587[0m
-  - accuracy = [92m0.846698663127[0m
-[92m  - Added entry 0.771[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596565f20fc54746d10d6881][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.819070052765[0m
+  - accuracy = [92m0.825639574629[0m
+[92m  - Added entry 0.819[0m
 [93m- Instance 6 at dataset 10 (93.64%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.868959996496[0m
-  - accuracy = [92m0.893867487001[0m
-[92m  - Added entry 0.869[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566040fc54746d10d6882][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.899941751739[0m
+  - accuracy = [92m0.874154916194[0m
+[92m  - Added entry 0.900[0m
 [93m- Instance 7 at dataset 10 (94.09%) [EXP experiment_1][0m
   - radius = [94m0.2[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_200_l_30_p_30_res_250b][0m
-  - bac = [92m0.881046997621[0m
-  - accuracy = [92m0.895720898964[0m
-[92m  - Added entry 0.881[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965662e0fc54746d10d6883][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_200_l_60_p_30_res_250b][0m
+  - bac = [92m0.906608097513[0m
+  - accuracy = [92m0.88257909054[0m
+[92m  - Added entry 0.907[0m
 [93m- Instance 8 at dataset 10 (94.55%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.832356073035[0m
-  - accuracy = [92m0.905656111806[0m
-[92m  - Added entry 0.832[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566380fc54746d10d6884][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.802287514038[0m
+  - accuracy = [92m0.813014446629[0m
+[92m  - Added entry 0.802[0m
 [93m- Instance 9 at dataset 10 (95.00%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.840286806931[0m
-  - accuracy = [92m0.886291020284[0m
-[92m  - Added entry 0.840[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566450fc54746d10d6885][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.814890225079[0m
+  - accuracy = [92m0.685640453964[0m
+[92m  - Added entry 0.815[0m
 [93m- Instance 10 at dataset 10 (95.45%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.872759900241[0m
-  - accuracy = [92m0.897741242813[0m
-[92m  - Added entry 0.873[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965665c0fc54746d10d6886][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.89834299665[0m
+  - accuracy = [92m0.859666022766[0m
+[92m  - Added entry 0.898[0m
 [93m- Instance 11 at dataset 10 (95.91%) [EXP experiment_1][0m
   - radius = [94m0.3[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_300_l_30_p_30_res_250b][0m
-  - bac = [92m0.87958428564[0m
-  - accuracy = [92m0.901615424109[0m
-[92m  - Added entry 0.880[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566ac0fc54746d10d6887][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_300_l_60_p_30_res_250b][0m
+  - bac = [92m0.898618986159[0m
+  - accuracy = [92m0.859832103682[0m
+[92m  - Added entry 0.899[0m
 [93m- Instance 12 at dataset 10 (96.36%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.829541958799[0m
-  - accuracy = [92m0.903128731857[0m
-[92m  - Added entry 0.830[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566b60fc54746d10d6888][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.790002859393[0m
+  - accuracy = [92m0.786055585339[0m
+[92m  - Added entry 0.790[0m
 [93m- Instance 13 at dataset 10 (96.82%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.848060342073[0m
-  - accuracy = [92m0.894374664931[0m
-[92m  - Added entry 0.848[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566c60fc54746d10d6889][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.773005531829[0m
+  - accuracy = [92m0.605444504012[0m
+[92m  - Added entry 0.773[0m
 [93m- Instance 14 at dataset 10 (97.27%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.87364192063[0m
-  - accuracy = [92m0.908522461345[0m
-[92m  - Added entry 0.874[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596566ed0fc54746d10d688a][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.879862833591[0m
+  - accuracy = [92m0.811982929548[0m
+[92m  - Added entry 0.880[0m
 [93m- Instance 15 at dataset 10 (97.73%) [EXP experiment_1][0m
   - radius = [94m0.4[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_400_l_30_p_30_res_250b][0m
-  - bac = [92m0.882725298831[0m
-  - accuracy = [92m0.909702047149[0m
-[92m  - Added entry 0.883[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965676d0fc54746d10d688b][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_400_l_60_p_30_res_250b][0m
+  - bac = [92m0.888528444612[0m
+  - accuracy = [92m0.831360785615[0m
+[92m  - Added entry 0.889[0m
 [93m- Instance 16 at dataset 10 (98.18%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m4[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_4_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.852363089734[0m
-  - accuracy = [92m0.9228449902[0m
-[92m  - Added entry 0.852[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596567790fc54746d10d688c][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_4_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.573651332381[0m
+  - accuracy = [92m0.297503680444[0m
+[92m  - Added entry 0.574[0m
 [93m- Instance 17 at dataset 10 (98.64%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m8[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_8_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.854886859654[0m
-  - accuracy = [92m0.889822118971[0m
-[92m  - Added entry 0.855[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965678f0fc54746d10d688d][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_8_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.669769755264[0m
+  - accuracy = [92m0.419299425028[0m
+[92m  - Added entry 0.670[0m
 [93m- Instance 18 at dataset 10 (99.09%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m16[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_16_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.884235961934[0m
-  - accuracy = [92m0.913074439991[0m
-[92m  - Added entry 0.884[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [596567ca0fc54746d10d688e][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_16_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.856334951835[0m
+  - accuracy = [92m0.763300088785[0m
+[92m  - Added entry 0.856[0m
 [93m- Instance 19 at dataset 10 (99.55%) [EXP experiment_1][0m
   - radius = [94m0.5[0m
-  - votingMethod = [94m1[0m
+  - votingMethod = [94m5[0m
   - resample = [94m250[0m
   - grain = [94m32[0m
   - approach = [94m2[0m
-  - limit = [94m30[0m
-[92m  - Results get from database [ece_ds_yeast3_app_2_vm_1_dim_[2]_g_32_r_500_l_30_p_30_res_250b][0m
-  - bac = [92m0.888933441567[0m
-  - accuracy = [92m0.916780129291[0m
-[92m  - Added entry 0.889[0m
+  - limit = [94m60[0m
+[93m  - Processing ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b[0m
+[92m  - New model established[0m
+[92m  - Results passed to database [5965689e0fc54746d10d688f][0m
+[92m  - Results get from database [ece_ds_yeast3_app_2_vm_5_dim_[2]_g_32_r_500_l_60_p_30_res_250b][0m
+  - bac = [92m0.841265762929[0m
+  - accuracy = [92m0.740390141233[0m
+[92m  - Added entry 0.841[0m
 [92m- Processing on yeast3 dataset done[0m
 [93m- Making an statistical independence tests[0m
-[92m  - 7 values are marked as best, with mean 0.889[0m
+[92m  - 4 values are marked as best, with mean 0.907[0m
 [93m- Making a table (Radius to Grain)[0m
 [92m  - Table saved in tables/experiment_1_yeast3.tex[0m
 [93m- Making a csv file[0m
